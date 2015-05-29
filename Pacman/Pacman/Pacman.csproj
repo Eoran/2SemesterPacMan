@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="Consumable.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="GameWorld.cs" />
     <Compile Include="Player.cs" />
