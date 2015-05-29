@@ -9,9 +9,9 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Pacman
 {
-    abstract class SpriteObject
+    public class SpriteObject
     {
-        
+
         protected Texture2D texture;
         private Rectangle[] rectangles;
         public Vector2 position = Vector2.Zero;
@@ -28,6 +28,7 @@ namespace Pacman
         protected Vector2 origin = Vector2.Zero;
         protected Vector2 offset;
         private Texture2D boxTexture;
+        private bool coll;
         public Rectangle CollisionRect
         {
             get
@@ -55,18 +56,26 @@ namespace Pacman
         }
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-           
+
             spriteBatch.Draw(texture, position, rectangles[currentIndex], color, 0, origin, scale, effect, layer);
-            Rectangle topLine = new Rectangle(CollisionRect.X, CollisionRect.Y,CollisionRect.Width,1);
-            Rectangle bottomLine = new Rectangle(CollisionRect.X, CollisionRect.Y +CollisionRect.Height, CollisionRect.Width,1);
-            Rectangle rightLine = new Rectangle(CollisionRect.X + CollisionRect.Width, CollisionRect.Y,1,CollisionRect.Height);
-            Rectangle leftLine = new Rectangle(CollisionRect.X, CollisionRect.Y, 1,CollisionRect.Height );
+            Rectangle topLine = new Rectangle(CollisionRect.X, CollisionRect.Y, CollisionRect.Width, 1);
+            Rectangle bottomLine = new Rectangle(CollisionRect.X, CollisionRect.Y + CollisionRect.Height, CollisionRect.Width, 1);
+            Rectangle rightLine = new Rectangle(CollisionRect.X + CollisionRect.Width, CollisionRect.Y, 1, CollisionRect.Height);
+            Rectangle leftLine = new Rectangle(CollisionRect.X, CollisionRect.Y, 1, CollisionRect.Height);
 
             spriteBatch.Draw(boxTexture, topLine, Color.Red);
             spriteBatch.Draw(boxTexture, bottomLine, Color.Red);
             spriteBatch.Draw(boxTexture, rightLine, Color.Red);
             spriteBatch.Draw(boxTexture, leftLine, Color.Red);
-            
+            if(coll == true)
+            {
+                spriteBatch.Draw(boxTexture, topLine, Color.Blue);
+                spriteBatch.Draw(boxTexture, bottomLine, Color.Blue);
+                spriteBatch.Draw(boxTexture, rightLine, Color.Blue);
+                spriteBatch.Draw(boxTexture, leftLine, Color.Blue);
+                
+            }
+
         }
         public void PlayAnimation(string frameName)
         {
@@ -77,18 +86,28 @@ namespace Pacman
         {
             timeElapsed += (float)gameTime.ElapsedGameTime.TotalSeconds;
             currentIndex = (int)(timeElapsed * fps);
-            if (currentIndex > rectangles.Length -1)
+            if (currentIndex > rectangles.Length - 1)
             {
                 timeElapsed = 0;
                 currentIndex = 0;
             }
         }
-       
+
         protected void CreateAnimation(string name, int frames, int yPos, int xStartFrame, int width, int height, Vector2 offset, float fps)
         {
             animations.Add(name, new Animation(frames, yPos, xStartFrame, width, height, offset, fps));
-            
+
         }
-        
+        private void HandleCollision()
+        {
+            foreach (SpriteObject obj in GameWorld.allObjects)
+            {
+                if (obj != this && obj.GetType() != this.GetType() && obj.CollisionRect.Intersects(this.CollisionRect))
+                {
+                    coll = true;
+                }
+            }
+        }
+
     }
 }

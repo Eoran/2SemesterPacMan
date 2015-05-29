@@ -18,6 +18,7 @@ namespace Pacman
         Enemy enemy;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        public static List<SpriteObject> allObjects;
 
         public GameWorld()
             : base()
@@ -35,6 +36,7 @@ namespace Pacman
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            allObjects = new List<SpriteObject>();
             IsMouseVisible = true;
             player = new Player(new Vector2(10,10),10);
             enemy = new Enemy(new Vector2(100,100), 10);
@@ -79,6 +81,8 @@ namespace Pacman
 
             player.Update(gameTime);
             enemy.Update(gameTime);
+            allObjects.Add(player);
+            allObjects.Add(enemy);
             base.Update(gameTime);
         }
         /// <summary>
@@ -96,6 +100,7 @@ namespace Pacman
             enemy.Draw(spriteBatch);
             
             spriteBatch.End();
+            
             base.Draw(gameTime);
         }
     }

@@ -11,7 +11,16 @@ namespace Pacman
 {
     class Player : SpriteObject
     {
-        public Vector2 Position;
+        private static Vector2 Position;
+        public static Rectangle rectan;
+        public static bool isPower = false;
+        private int powerCount = 600;
+
+        public static Vector2 Position1
+        {
+            get { return Position; }
+            set { Position = value; }
+        }
         
         public enum Direction : byte
         {
@@ -37,6 +46,8 @@ namespace Pacman
             CreateAnimation("AttackDown", 9, 150, 0, 70, 80, new Vector2(-4, -2), 27);
             CreateAnimation("AttackLeft", 9, 310, 0, 70, 70, new Vector2(-30, -4), 27);
             PlayAnimation("IdleDown");
+
+            Position1 = pos;
         }
         public override void LoadContent(ContentManager content)
         {
@@ -118,6 +129,18 @@ namespace Pacman
         }
         public override void Update(GameTime gameTime)
         {
+            if(powerCount > 0)
+            {
+                isPower = true;
+                powerCount--;
+            }
+            else
+            {
+                isPower = false;
+            }
+            rectan = CollisionRect;
+            Position1 = position;
+            
             velocity = Vector2.Zero;
 
             HandleInput(Keyboard.GetState());
@@ -127,6 +150,13 @@ namespace Pacman
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             position += (velocity * deltaTime);
+            if(CollisionRect.Intersects((Enemy.rectan)))
+            {
+                if(Player.isPower == false)
+                {
+                    position = Vector2.Zero;
+                }
+            }
 
             base.Update(gameTime);
         }

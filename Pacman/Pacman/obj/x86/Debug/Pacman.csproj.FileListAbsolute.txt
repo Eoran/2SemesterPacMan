@@ -27,3 +27,32 @@ c:\users\kristian\documents\visual studio 2013\Projects\Pacman\Pacman\bin\Window
 c:\users\kristian\documents\visual studio 2013\Projects\Pacman\Pacman\bin\Windows\Debug\Content\playerSheet.png
 c:\users\kristian\documents\visual studio 2013\Projects\Pacman\Pacman\bin\Windows\Debug\Content\sponge.png
 c:\users\kristian\documents\visual studio 2013\Projects\Pacman\Pacman\bin\Windows\Debug\Content\walk.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\CollisionTexture.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\playerSheet.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\sponge.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\walk.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Pacman.exe
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Pacman.pdb
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache

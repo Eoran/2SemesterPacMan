@@ -12,7 +12,8 @@ namespace Pacman
     class Enemy : SpriteObject
     {
         private Vector2 Position;
-        Player player = new Player( new Vector2(10,10),10);
+        public static Rectangle rectan;
+        
         private enum Direction : byte
         {
             right = 1,
@@ -20,7 +21,7 @@ namespace Pacman
             up = 3,
             down = 4,
         }
-        private Direction direction = (Direction)4;
+        
         public Enemy(Vector2 pos, int player)
             : base(pos)
         {
@@ -30,6 +31,8 @@ namespace Pacman
             CreateAnimation("DmgLeft", 5, 185, 0, 65, 65, new Vector2(0, 0), 5);
             CreateAnimation("Explode", 5, 260, 0, 100, 100, new Vector2(-10, -10), 5);
             PlayAnimation("MoveRight");
+
+            Position = pos;
         }
         public override void LoadContent(ContentManager content)
         {
@@ -40,38 +43,30 @@ namespace Pacman
         private void ChasePlayer()
         {
             
-            //if (keyState.IsKeyDown(Keys.Space))
-            //{
-            //    if (direction == (Direction)4)
-            //    {
-            //        PlayAnimation("AttackDown");
-            //    }
-            //    if (direction == (Direction)1)
-            //    {
-            //        PlayAnimation("AttackRight");
-            //    }
-            //    if (direction == (Direction)2)
-            //    {
-            //        PlayAnimation("AttackLeft");
-            //    }
-            //    if (direction == (Direction)3)
-            //    {
-            //        PlayAnimation("AttackUp");
-            //    }
-
-            //    velocity += new Vector2(0, 0);
-            //}
+   
         }
         public override void Update(GameTime gameTime)
         {
-            velocity = player.Position - this.Position;
-
-            //HandleInput(Keyboard.GetState());
-            
-
-            velocity *= speed;
+            rectan = CollisionRect;
+            if (Player.isPower == false)
+            {
+                velocity = Player.Position1 - this.position;
+            }
+            else
+            {
+                velocity = Player.Position1 + this.position;
+            }
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (CollisionRect.Intersects((Player.rectan)))
+            {
+                if(Player.isPower == true)
+                {
+                    position = new Vector2(100, 100);
+                }
+                
+            }
 
             position += (velocity * deltaTime);
 
