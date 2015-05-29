@@ -98,16 +98,7 @@ namespace Pacman
             animations.Add(name, new Animation(frames, yPos, xStartFrame, width, height, offset, fps));
 
         }
-        private void HandleCollision()
-        {
-            foreach (SpriteObject obj in GameWorld.allObjects)
-            {
-                if (obj != this && obj.GetType() != this.GetType() && obj.CollisionRect.Intersects(this.CollisionRect))
-                {
-                    coll = true;
-                }
-            }
-        }
+       
 
     }
 }

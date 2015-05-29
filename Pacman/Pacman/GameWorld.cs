@@ -16,9 +16,11 @@ namespace Pacman
     {
         Player player;
         Enemy enemy;
+        Books cons;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        public static List<SpriteObject> allObjects;
+        public static List<Books> books;
+        public static List<Cards> cards;
 
         public GameWorld()
             : base()
@@ -36,10 +38,18 @@ namespace Pacman
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            allObjects = new List<SpriteObject>();
+            books = new List<Books>();
+            cards = new List<Cards>();
+
             IsMouseVisible = true;
-            player = new Player(new Vector2(10,10),10);
-            enemy = new Enemy(new Vector2(100,100), 10);
+            player = new Player(new Vector2(10, 10), 10);
+            enemy = new Enemy(new Vector2(100, 100), 10);
+            books.Add(new Books(new Vector2(200, 200), 1));
+            books.Add(new Books(new Vector2(250, 200), 1));
+            books.Add(new Books(new Vector2(200, 300), 1));
+
+            cards.Add(new Cards(new Vector2(300, 200), 1));
+
             base.Initialize();
         }
 
@@ -51,11 +61,19 @@ namespace Pacman
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+
 
             // TODO: use this.Content to load your game content here
-           player.LoadContent(Content);
-           enemy.LoadContent(Content);
+            player.LoadContent(Content);
+            foreach (Books consu in books)
+            {
+                consu.LoadContent(Content);
+            }
+            foreach (Cards card in cards)
+            {
+                card.LoadContent(Content);
+            }
+            enemy.LoadContent(Content);
         }
 
         /// <summary>
@@ -81,8 +99,15 @@ namespace Pacman
 
             player.Update(gameTime);
             enemy.Update(gameTime);
-            allObjects.Add(player);
-            allObjects.Add(enemy);
+            foreach (Books consu in books)
+            {
+                consu.Update(gameTime);
+            }
+            foreach (Cards card in cards)
+            {
+                card.Update(gameTime);
+            }
+
             base.Update(gameTime);
         }
         /// <summary>
@@ -95,12 +120,20 @@ namespace Pacman
 
             // TODO: Add your drawing code here
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
-            
+
             player.Draw(spriteBatch);
             enemy.Draw(spriteBatch);
-            
+            foreach (Books consu in books)
+            {
+                consu.Draw(spriteBatch);
+            }
+            foreach (Cards card in cards)
+            {
+                card.Draw(spriteBatch);
+            }
+
             spriteBatch.End();
-            
+
             base.Draw(gameTime);
         }
     }

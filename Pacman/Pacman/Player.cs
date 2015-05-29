@@ -14,7 +14,13 @@ namespace Pacman
         private static Vector2 Position;
         public static Rectangle rectan;
         public static bool isPower = false;
-        private int powerCount = 600;
+        private static int powerCount = 0;
+
+        public static int PowerCount
+        {
+            get { return Player.powerCount; }
+            set { Player.powerCount = value; }
+        }
 
         public static Vector2 Position1
         {
@@ -45,6 +51,7 @@ namespace Pacman
             CreateAnimation("AttackRight", 9, 380, 0, 70, 80, new Vector2(10, -5), 27);
             CreateAnimation("AttackDown", 9, 150, 0, 70, 80, new Vector2(-4, -2), 27);
             CreateAnimation("AttackLeft", 9, 310, 0, 70, 70, new Vector2(-30, -4), 27);
+            
             PlayAnimation("IdleDown");
 
             Position1 = pos;
@@ -157,7 +164,7 @@ namespace Pacman
                     position = Vector2.Zero;
                 }
             }
-
+            
             base.Update(gameTime);
         }
     }

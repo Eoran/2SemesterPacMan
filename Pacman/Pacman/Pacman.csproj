@@ -39,7 +39,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
-    <Compile Include="Consumable.cs" />
+    <Compile Include="Books.cs" />
+    <Compile Include="Cards.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="GameWorld.cs" />
     <Compile Include="Player.cs" />
@@ -59,6 +60,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\playerSheet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\rsz_book.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\card.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\sponge.png">
