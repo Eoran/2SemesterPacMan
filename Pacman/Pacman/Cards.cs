@@ -37,6 +37,7 @@ namespace Pacman
             {
               
                     Player.PowerCount = 600;
+                    GameWorld.cardRem.Add(this);
                 
             }
             base.Update(gameTime);

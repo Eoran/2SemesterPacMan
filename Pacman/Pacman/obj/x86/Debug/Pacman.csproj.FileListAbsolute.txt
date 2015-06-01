@@ -58,3 +58,5 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Shar
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_book.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\card.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part1_tileset.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part2_tileset.png

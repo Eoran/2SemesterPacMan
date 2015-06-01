@@ -14,13 +14,7 @@ namespace Pacman
         private Vector2 Position;
         public static Rectangle rectan;
         
-        private enum Direction : byte
-        {
-            right = 1,
-            left = 2,
-            up = 3,
-            down = 4,
-        }
+       
         
         public Enemy(Vector2 pos, int player)
             : base(pos)
@@ -48,14 +42,14 @@ namespace Pacman
         public override void Update(GameTime gameTime)
         {
             rectan = CollisionRect;
-            if (Player.isPower == false)
-            {
-                velocity = Player.Position1 - this.position;
-            }
-            else
-            {
-                velocity = Player.Position1 + this.position;
-            }
+            //if (Player.isPower == false)
+            //{
+            //    velocity = Player.Position1 - this.position;
+            //}
+            //else
+            //{
+            //    velocity = Player.Position1 + this.position;
+            //}
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
