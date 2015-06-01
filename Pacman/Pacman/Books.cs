@@ -35,7 +35,7 @@ namespace Pacman
         {
             if(CollisionRect.Intersects(Player.rectan))
             {
-               //insert some function here
+                GameWorld.bookRem.Add(this);
             }
             base.Update(gameTime);
         }

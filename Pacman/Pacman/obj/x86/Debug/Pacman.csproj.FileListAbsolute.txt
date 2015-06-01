@@ -59,4 +59,3 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.c
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_book.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\card.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part1_tileset.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part2_tileset.png

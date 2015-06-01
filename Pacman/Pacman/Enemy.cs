@@ -42,14 +42,14 @@ namespace Pacman
         public override void Update(GameTime gameTime)
         {
             rectan = CollisionRect;
-            //if (Player.isPower == false)
-            //{
-            //    velocity = Player.Position1 - this.position;
-            //}
-            //else
-            //{
-            //    velocity = Player.Position1 + this.position;
-            //}
+            if (Player.isPower == false)
+            {
+                velocity = Player.Position1 - this.position;
+            }
+            else
+            {
+                velocity = Player.Position1 + this.position;
+            }
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
@@ -61,7 +61,28 @@ namespace Pacman
                 }
                 
             }
+            Rectangle overlap = Rectangle.Intersect(CollisionRect, tiles.rectan);
+            if (overlap.Height < overlap.Width && tiles.rectan.Y > CollisionRect.Y)
+            {
+                position -= new Vector2(0, overlap.Height);
 
+            }
+            if (overlap.Height < overlap.Width && tiles.rectan.Y < CollisionRect.Y)
+            {
+                position += new Vector2(0, overlap.Height);
+
+
+            }
+            if (overlap.Height > overlap.Width && tiles.rectan.X < CollisionRect.X)
+            {
+                position += new Vector2(overlap.Width, 0);
+
+            }
+            if (overlap.Height > overlap.Width && tiles.rectan.X > CollisionRect.X)
+            {
+                position -= new Vector2(overlap.Width, 0);
+
+            }
             position += (velocity * deltaTime);
 
             base.Update(gameTime);
