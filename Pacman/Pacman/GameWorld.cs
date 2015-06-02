@@ -57,6 +57,97 @@ namespace Pacman
             tiles.Add(new tiles(new Vector2(240, 300), 1));
             tiles.Add(new tiles(new Vector2(272, 300), 1));
 
+            tiles.Add(new tiles(new Vector2(0, 0), 1));
+            tiles.Add(new tiles(new Vector2(0, 32), 1));
+            tiles.Add(new tiles(new Vector2(0, 64), 1));
+            tiles.Add(new tiles(new Vector2(0, 96), 1));
+            tiles.Add(new tiles(new Vector2(0, 128), 1));
+            tiles.Add(new tiles(new Vector2(0, 160), 1));
+            tiles.Add(new tiles(new Vector2(0, 192), 1));
+            tiles.Add(new tiles(new Vector2(0, 224), 1));
+            tiles.Add(new tiles(new Vector2(0, 256), 1));
+            tiles.Add(new tiles(new Vector2(0, 288), 1));
+            
+            tiles.Add(new tiles(new Vector2(0, 352), 1));
+            tiles.Add(new tiles(new Vector2(0, 384), 1));
+            tiles.Add(new tiles(new Vector2(0, 416), 1));
+            tiles.Add(new tiles(new Vector2(0, 448), 1));
+            tiles.Add(new tiles(new Vector2(0, 480), 1));
+            tiles.Add(new tiles(new Vector2(0, 512), 1));
+            tiles.Add(new tiles(new Vector2(0, 544), 1));
+            tiles.Add(new tiles(new Vector2(0, 576), 1));
+            tiles.Add(new tiles(new Vector2(0, 608), 1));
+            tiles.Add(new tiles(new Vector2(0, 640), 1));
+            // Tiles below the middle to the left ^
+
+            tiles.Add(new tiles(new Vector2(32, 0), 1));
+            tiles.Add(new tiles(new Vector2(64, 0), 1));
+            tiles.Add(new tiles(new Vector2(96, 0), 1));
+            tiles.Add(new tiles(new Vector2(128, 0), 1));
+            tiles.Add(new tiles(new Vector2(160, 0), 1));
+            tiles.Add(new tiles(new Vector2(192, 0), 1));
+            tiles.Add(new tiles(new Vector2(224, 0), 1));
+            tiles.Add(new tiles(new Vector2(256, 0), 1));
+            tiles.Add(new tiles(new Vector2(288, 0), 1));
+            tiles.Add(new tiles(new Vector2(320, 0), 1));
+            tiles.Add(new tiles(new Vector2(352, 0), 1));
+            tiles.Add(new tiles(new Vector2(384, 0), 1));
+            tiles.Add(new tiles(new Vector2(416, 0), 1));
+            tiles.Add(new tiles(new Vector2(448, 0), 1));
+            tiles.Add(new tiles(new Vector2(480, 0), 1));
+            tiles.Add(new tiles(new Vector2(512, 0), 1));
+            tiles.Add(new tiles(new Vector2(544, 0), 1));
+            tiles.Add(new tiles(new Vector2(576, 0), 1));
+            tiles.Add(new tiles(new Vector2(608, 0), 1));
+            tiles.Add(new tiles(new Vector2(640, 0), 1));
+            tiles.Add(new tiles(new Vector2(672, 0), 1));
+
+            // tiles at the top
+
+            tiles.Add(new tiles(new Vector2(672, 32), 1));
+            tiles.Add(new tiles(new Vector2(672, 64), 1));
+            tiles.Add(new tiles(new Vector2(672, 96), 1));
+            tiles.Add(new tiles(new Vector2(672, 128), 1));
+            tiles.Add(new tiles(new Vector2(672, 160), 1));
+            tiles.Add(new tiles(new Vector2(672, 192), 1));
+            tiles.Add(new tiles(new Vector2(672, 224), 1));
+            tiles.Add(new tiles(new Vector2(672, 256), 1));
+            tiles.Add(new tiles(new Vector2(672, 288), 1));
+            
+            tiles.Add(new tiles(new Vector2(672, 352), 1));
+            tiles.Add(new tiles(new Vector2(672, 384), 1));
+            tiles.Add(new tiles(new Vector2(672, 416), 1));
+            tiles.Add(new tiles(new Vector2(672, 448), 1));
+            tiles.Add(new tiles(new Vector2(672, 480), 1));
+            tiles.Add(new tiles(new Vector2(672, 512), 1));
+            tiles.Add(new tiles(new Vector2(672, 544), 1));
+            tiles.Add(new tiles(new Vector2(672, 576), 1));
+            tiles.Add(new tiles(new Vector2(672, 608), 1));
+            tiles.Add(new tiles(new Vector2(672, 638), 1));
+            // tiles right side^
+            tiles.Add(new tiles(new Vector2(640, 638), 1));
+            tiles.Add(new tiles(new Vector2(608, 638), 1));
+            tiles.Add(new tiles(new Vector2(576, 638), 1));
+            tiles.Add(new tiles(new Vector2(544, 638), 1));
+            tiles.Add(new tiles(new Vector2(512, 638), 1));
+            tiles.Add(new tiles(new Vector2(480, 638), 1));
+            tiles.Add(new tiles(new Vector2(448, 638), 1));
+            tiles.Add(new tiles(new Vector2(416, 638), 1));
+            tiles.Add(new tiles(new Vector2(384, 638), 1));
+            tiles.Add(new tiles(new Vector2(352, 638), 1));
+            tiles.Add(new tiles(new Vector2(320, 638), 1));
+            tiles.Add(new tiles(new Vector2(288, 638), 1));
+            tiles.Add(new tiles(new Vector2(256, 638), 1));
+            tiles.Add(new tiles(new Vector2(224, 638), 1));
+            tiles.Add(new tiles(new Vector2(192, 638), 1));
+            tiles.Add(new tiles(new Vector2(160, 638), 1));
+            tiles.Add(new tiles(new Vector2(128, 638), 1));
+            tiles.Add(new tiles(new Vector2(96, 638), 1));
+            tiles.Add(new tiles(new Vector2(64, 638), 1));
+            tiles.Add(new tiles(new Vector2(32, 638), 1));
+            tiles.Add(new tiles(new Vector2(0, 638), 1));
+
+            //tiles at the bottom ^
             //cards.Add(new Cards(new Vector2(300, 200), 1));
             //cards.Add(new Cards(new Vector2(340, 200), 1));
 
