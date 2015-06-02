@@ -136,8 +136,8 @@ namespace Pacman
         }
         public override void Update(GameTime gameTime)
         {
-            
-            if(powerCount > 0)
+
+            if (powerCount > 0)
             {
                 isPower = true;
                 powerCount--;
@@ -148,8 +148,9 @@ namespace Pacman
             }
             rectan = CollisionRect;
             Position1 = position;
-            position = Position1;
             
+            position = Position1;
+
             velocity = Vector2.Zero;
 
             HandleInput(Keyboard.GetState());
@@ -158,37 +159,41 @@ namespace Pacman
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            
-            if(CollisionRect.Intersects((Enemy.rectan)))
+
+            if (CollisionRect.Intersects((Enemy.rectan)))
             {
-                if(Player.isPower == false)
+                if (Player.isPower == false)
                 {
                     position = Vector2.Zero;
                 }
             }
-
-            Rectangle overlap = Rectangle.Intersect(CollisionRect, tiles.rectan);
-            if (overlap.Height < overlap.Width && tiles.rectan.Y > CollisionRect.Y)
+            foreach(tiles item in GameWorld.tiles)
             {
-                position -= new Vector2(0, overlap.Height);
+                Rectangle overlap = Rectangle.Intersect(CollisionRect, item.CollisionRect);
+                if (overlap.Height < overlap.Width && item.CollisionRect.Y > CollisionRect.Y)
+                {
+                    position -= new Vector2(0, overlap.Height);
 
+                }
+                if (overlap.Height < overlap.Width && item.CollisionRect.Y < CollisionRect.Y)
+                {
+                    position += new Vector2(0, overlap.Height);
+
+
+                }
+                if (overlap.Height > overlap.Width && item.CollisionRect.X < CollisionRect.X)
+                {
+                    position += new Vector2(overlap.Width, 0);
+
+                }
+                if (overlap.Height > overlap.Width && item.CollisionRect.X > CollisionRect.X)
+                {
+                    position -= new Vector2(overlap.Width, 0);
+
+                }
             }
-            if (overlap.Height < overlap.Width && tiles.rectan.Y < CollisionRect.Y)
-            {
-                position += new Vector2(0, overlap.Height);
-
-
-            }
-            if (overlap.Height > overlap.Width && tiles.rectan.X < CollisionRect.X)
-            {
-                position += new Vector2(overlap.Width, 0);
-
-            }
-            if (overlap.Height > overlap.Width && tiles.rectan.X > CollisionRect.X)
-            {
-                position -= new Vector2(overlap.Width, 0);
-
-            }
+                
+            
             position += (velocity * deltaTime);
             base.Update(gameTime);
         }

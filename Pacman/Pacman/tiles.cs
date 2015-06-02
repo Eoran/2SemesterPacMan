@@ -10,8 +10,8 @@ namespace Pacman
 {
     public class tiles : SpriteObject
     {
-     public static Rectangle rectan;
-        
+        public static Rectangle rectan;
+
 
         public tiles(Vector2 pos, int frames)
             : base(pos)
@@ -20,18 +20,42 @@ namespace Pacman
             PlayAnimation("IdleUp");
 
             rectan = CollisionRect;
-          
+
         }
         public override void LoadContent(ContentManager content)
         {
 
-                texture = content.Load<Texture2D>(@"part1_tileset");
+            texture = content.Load<Texture2D>(@"part1_tileset");
 
             base.LoadContent(content);
         }
         public override void Update(GameTime gameTime)
         {
-            
+
+            //Til Bomberman
+            //Rectangle overlap = Rectangle.Intersect(Player.rectan, CollisionRect);
+            //if (overlap.Height < overlap.Width && Player.rectan.Y > CollisionRect.Y)
+            //{
+            //    position -= new Vector2(0, overlap.Height);
+
+            //}
+            //if (overlap.Height < overlap.Width && Player.rectan.Y < CollisionRect.Y)
+            //{
+            //    position += new Vector2(0, overlap.Height);
+
+
+            //}
+            //if (overlap.Height > overlap.Width && Player.rectan.X < CollisionRect.X)
+            //{
+            //    position += new Vector2(overlap.Width, 0);
+
+            //}
+            //if (overlap.Height > overlap.Width && Player.rectan.X > CollisionRect.X)
+            //{
+            //    position -= new Vector2(overlap.Width, 0);
+
+            //}
+
             base.Update(gameTime);
         }
     }

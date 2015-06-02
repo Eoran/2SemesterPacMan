@@ -17,7 +17,7 @@ namespace Pacman
         
         Player player;
         Enemy enemy;
-        tiles tile;
+        
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         public static List<tiles> tiles;
@@ -51,13 +51,14 @@ namespace Pacman
             IsMouseVisible = true;
             player = new Player(new Vector2(300, 20), 10);
             enemy = new Enemy(new Vector2(100, 100), 10);
-            books.Add(new Books(new Vector2(200, 200), 1));
-            books.Add(new Books(new Vector2(250, 200), 1));
-            books.Add(new Books(new Vector2(200, 300), 1));
+            //books.Add(new Books(new Vector2(200, 200), 1));
+            //books.Add(new Books(new Vector2(250, 200), 1));
+            //books.Add(new Books(new Vector2(200, 300), 1));
             tiles.Add(new tiles(new Vector2(240, 300), 1));
+            tiles.Add(new tiles(new Vector2(272, 300), 1));
 
-            cards.Add(new Cards(new Vector2(300, 200), 1));
-            cards.Add(new Cards(new Vector2(340, 200), 1));
+            //cards.Add(new Cards(new Vector2(300, 200), 1));
+            //cards.Add(new Cards(new Vector2(340, 200), 1));
 
             base.Initialize();
             graphics.PreferredBackBufferWidth = 700;
@@ -169,8 +170,7 @@ namespace Pacman
 
 
 
-            player.Draw(spriteBatch);
-            enemy.Draw(spriteBatch);
+            
             foreach (Books consu in books)
             {
                 consu.Draw(spriteBatch);
@@ -184,7 +184,8 @@ namespace Pacman
                 tile.Draw(spriteBatch);
             }
 
-
+            player.Draw(spriteBatch);
+            enemy.Draw(spriteBatch);
 
             spriteBatch.End();
 

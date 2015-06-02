@@ -13,9 +13,9 @@ namespace Pacman
     {
         private Vector2 Position;
         public static Rectangle rectan;
-        
-       
-        
+
+
+
         public Enemy(Vector2 pos, int player)
             : base(pos)
         {
@@ -36,52 +36,55 @@ namespace Pacman
         }
         private void ChasePlayer()
         {
-            
-   
+
+
         }
         public override void Update(GameTime gameTime)
         {
             rectan = CollisionRect;
             if (Player.isPower == false)
             {
-                velocity = Player.Position1 - this.position;
+                //velocity = Player.Position1 - this.position;
             }
             else
             {
-                velocity = Player.Position1 + this.position;
+                //velocity = (Player.Position1 / 23) + (this.position / 23);
             }
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             if (CollisionRect.Intersects((Player.rectan)))
             {
-                if(Player.isPower == true)
+                if (Player.isPower == true)
                 {
                     position = new Vector2(100, 100);
                 }
-                
-            }
-            Rectangle overlap = Rectangle.Intersect(CollisionRect, tiles.rectan);
-            if (overlap.Height < overlap.Width && tiles.rectan.Y > CollisionRect.Y)
-            {
-                position -= new Vector2(0, overlap.Height);
 
             }
-            if (overlap.Height < overlap.Width && tiles.rectan.Y < CollisionRect.Y)
+            foreach (tiles item in GameWorld.tiles)
             {
-                position += new Vector2(0, overlap.Height);
+                Rectangle overlap = Rectangle.Intersect(CollisionRect, tiles.rectan);
+                if (overlap.Height < overlap.Width && item.CollisionRect.Y > CollisionRect.Y)
+                {
+                    position -= new Vector2(0, overlap.Height);
+
+                }
+                if (overlap.Height < overlap.Width && item.CollisionRect.Y < CollisionRect.Y)
+                {
+                    position += new Vector2(0, overlap.Height);
 
 
-            }
-            if (overlap.Height > overlap.Width && tiles.rectan.X < CollisionRect.X)
-            {
-                position += new Vector2(overlap.Width, 0);
+                }
+                if (overlap.Height > overlap.Width && item.CollisionRect.X < CollisionRect.X)
+                {
+                    position += new Vector2(overlap.Width, 0);
 
-            }
-            if (overlap.Height > overlap.Width && tiles.rectan.X > CollisionRect.X)
-            {
-                position -= new Vector2(overlap.Width, 0);
+                }
+                if (overlap.Height > overlap.Width && item.CollisionRect.X > CollisionRect.X)
+                {
+                    position -= new Vector2(overlap.Width, 0);
 
+                }
             }
             position += (velocity * deltaTime);
 
@@ -89,4 +92,4 @@ namespace Pacman
         }
     }
 }
- 
+
