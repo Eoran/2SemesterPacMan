@@ -61,3 +61,4 @@ C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\SharpD
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.exe
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.pdb
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.csprojResolveAssemblyReference.cache

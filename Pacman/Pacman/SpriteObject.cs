@@ -24,7 +24,7 @@ namespace Pacman
         private SpriteEffects effect = new SpriteEffects();
         protected Vector2 velocity;
         private float layer;
-        private float scale;
+        protected float scale;
         protected Vector2 origin = Vector2.Zero;
         protected Vector2 offset;
         private Texture2D boxTexture;
@@ -49,6 +49,7 @@ namespace Pacman
             this.fps = 15;
             this.layer = 0;
             this.scale = 1;
+            
         }
         public virtual void LoadContent(ContentManager content)
         {
@@ -84,6 +85,7 @@ namespace Pacman
                 timeElapsed = 0;
                 currentIndex = 0;
             }
+            
         }
 
         protected void CreateAnimation(string name, int frames, int yPos, int xStartFrame, int width, int height, Vector2 offset, float fps)

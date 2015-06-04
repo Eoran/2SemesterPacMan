@@ -55,6 +55,8 @@ namespace Pacman
             PlayAnimation("IdleDown");
 
             Position1 = pos;
+            scale = 0.5F;
+            
         }
         public override void LoadContent(ContentManager content)
         {

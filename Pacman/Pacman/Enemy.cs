@@ -13,6 +13,13 @@ namespace Pacman
     {
         private Vector2 Position;
         public static Rectangle rectan;
+        private path.Path path;
+        private static path.Map map;
+        public static void init()
+        {
+            map = path.Map(20, 20);
+            map.getNodeAt(0, 0).Col = true;
+        }
 
 
 
@@ -27,6 +34,7 @@ namespace Pacman
             PlayAnimation("MoveRight");
 
             Position = pos;
+            scale = 0.5F;
         }
         public override void LoadContent(ContentManager content)
         {
@@ -44,11 +52,7 @@ namespace Pacman
             rectan = CollisionRect;
             if (Player.isPower == false)
             {
-                //velocity = Player.Position1 - this.position;
-            }
-            else
-            {
-                //velocity = (Player.Position1 / 23) + (this.position / 23);
+
             }
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;

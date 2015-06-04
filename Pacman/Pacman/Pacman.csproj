@@ -43,6 +43,9 @@
     <Compile Include="Cards.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="GameWorld.cs" />
+    <Compile Include="path\Map.cs" />
+    <Compile Include="path\Node.cs" />
+    <Compile Include="path\Path.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
