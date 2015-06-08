@@ -114,7 +114,14 @@ namespace Pacman
         }
         public override void Update(GameTime gameTime)
         {
-
+            if (position.X < -32) 
+            {
+                position = new Vector2(704,320);
+            }
+            else if(position.X > 704)
+            {
+                position = new Vector2(-32, 320);
+            }
             if (powerCount > 0)
             {
                 isPower = true;
@@ -137,14 +144,17 @@ namespace Pacman
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-
-            if (CollisionRect.Intersects((Enemy.rectan)))
+            foreach (Enemy ene in GameWorld.enemyList)
             {
-                if (Player.isPower == false)
+                if (CollisionRect.Intersects((ene.CollisionRect)))
                 {
-                    position = Vector2.Zero;
+                    if (isPower == false)
+                    {
+                        position = new Vector2(32, 32);
+                    }
                 }
             }
+            
             foreach(tiles item in GameWorld.tiles)
             {
                 Rectangle overlap = Rectangle.Intersect(CollisionRect, item.CollisionRect);

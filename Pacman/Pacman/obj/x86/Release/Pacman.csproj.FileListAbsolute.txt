@@ -64,3 +64,4 @@ C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.csp
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.csprojResolveAssemblyReference.cache
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\spr_bookcase_0.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\Enemy1.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\teleportblok.png

@@ -9,13 +9,15 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Pacman
 {
-    class Enemy : SpriteObject
+    public class Enemy : SpriteObject
     {
 
         private Vector2 Position;
         public static Rectangle rectan;
         private path.Path pathen;
         private static path.Map map;
+        private int deathcount;
+        private Vector2 spawn;
         public static void init()
         {
             map = new path.Map(22, 21);
@@ -529,7 +531,7 @@ namespace Pacman
 
 
 
-        public Enemy(Vector2 pos, int player)
+        public Enemy(Vector2 pos, int type)
             : base(pos)
         {
             CreateAnimation("MoveRight", 5, 0, 0, 32, 32, new Vector2(0, 0), 5);
@@ -538,8 +540,24 @@ namespace Pacman
             CreateAnimation("DmgLeft", 5, 185, 0, 65, 65, new Vector2(0, 0), 5);
             CreateAnimation("Explode", 5, 260, 0, 100, 100, new Vector2(-10, -10), 5);
             PlayAnimation("MoveRight");
-
+            spawn = pos;
             Position = pos;
+            switch (type)
+            {
+                case 0:
+                    deathcount = 100;
+                    break;
+                case 1:
+                    deathcount = 400;
+                    break;
+                case 2:
+                    deathcount = 700;
+                    break;
+                case 3:
+                    deathcount = 1000;
+                    break;
+            }
+
 
         }
         public override void LoadContent(ContentManager content)
@@ -556,54 +574,67 @@ namespace Pacman
         public override void Update(GameTime gameTime)
         {
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (pathen != null)
+            if (deathcount == 0)
             {
-                Vector2 dir = pathen.Target - position;
-                float distance = dir.Length();
-                float step = speed * deltaTime;
 
-                if (distance < step)
+
+                if (pathen != null)
                 {
-                    position = pathen.Target;
-                    if (!pathen.Next())
+                    Vector2 dir = pathen.Target - position;
+                    float distance = dir.Length();
+                    float step = speed * deltaTime;
+
+                    if (distance < step)
                     {
-                        pathen = null;
+                        position = pathen.Target;
+                        if (!pathen.Next())
+                        {
+                            pathen = null;
+                        }
+                    }
+                    else
+                    {
+                        dir.Normalize();
+                        position += dir * step;
                     }
                 }
                 else
                 {
-                    dir.Normalize();
-                    position += dir * step;
-                }
-            }
-            else
-            {
-                path.Node start = map.getNodeAt(position);
-                path.Node goal = map.getNodeAt(GameWorld.Player.position);
 
-                pathen = map.findPath(start, goal);
-            }
-
-            rectan = CollisionRect;
-            
-
-
-
-            if (CollisionRect.Intersects((Player.rectan)))
-            {
-                if (Player.isPower == true)
-                {
-                    position = new Vector2(320, 300);
 
                     path.Node start = map.getNodeAt(position);
                     path.Node goal = map.getNodeAt(GameWorld.Player.position);
 
                     pathen = map.findPath(start, goal);
+
+
+                }
+            }
+            else
+            {
+                deathcount--;
+            }
+
+
+            rectan = CollisionRect;
+
+
+
+
+            if (CollisionRect.Intersects((Player.rectan)))
+            {
+                if (Player.isPower)
+                {
+                    position = spawn;
+
+                    pathen = null;
+
+                    deathcount = 100;
                 }
 
             }
-            
-            
+
+
 
             base.Update(gameTime);
         }

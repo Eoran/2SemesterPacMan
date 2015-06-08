@@ -11,21 +11,29 @@ namespace Pacman
     public class tiles : SpriteObject
     {
         public static Rectangle rectan;
+        public bool spawnblok;
 
-
-        public tiles(Vector2 pos, int frames)
+        public tiles(Vector2 pos, bool spawn)
             : base(pos)
         {
             CreateAnimation("IdleUp", 1, 1, 0, 32, 32, Vector2.Zero, 1);
             PlayAnimation("IdleUp");
 
             rectan = CollisionRect;
+            spawnblok = spawn;
 
         }
         public override void LoadContent(ContentManager content)
         {
-
-            texture = content.Load<Texture2D>(@"spr_bookcase_0");
+            if (spawnblok == false)
+            {
+                texture = content.Load<Texture2D>(@"teleportblok");
+            }
+            else
+            {
+                texture = content.Load<Texture2D>(@"spr_bookcase_0");
+            }
+            
 
             base.LoadContent(content);
         }

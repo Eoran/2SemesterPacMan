@@ -84,6 +84,9 @@
     <Content Include="Content\spr_bookcase_0.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\teleportblok.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\walk.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
