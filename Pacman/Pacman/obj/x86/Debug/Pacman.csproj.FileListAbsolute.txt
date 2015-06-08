@@ -126,3 +126,9 @@ C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.cspr
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\spr_bookcase_0.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\Enemy1.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\teleportblok.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian1.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian2.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian3.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian4.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DonePlayer.png
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Books.cs

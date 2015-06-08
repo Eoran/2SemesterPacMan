@@ -18,6 +18,7 @@ namespace Pacman
         private static path.Map map;
         private int deathcount;
         private Vector2 spawn;
+        public int typeEne;
         public static void init()
         {
             map = new path.Map(22, 21);
@@ -534,14 +535,19 @@ namespace Pacman
         public Enemy(Vector2 pos, int type)
             : base(pos)
         {
-            CreateAnimation("MoveRight", 5, 0, 0, 32, 32, new Vector2(0, 0), 5);
-            CreateAnimation("MoveLeft", 5, 65, 0, 65, 65, new Vector2(0, 0), 5);
-            CreateAnimation("DmgRight", 4, 185, 0, 65, 65, new Vector2(0, 0), 5);
-            CreateAnimation("DmgLeft", 5, 185, 0, 65, 65, new Vector2(0, 0), 5);
-            CreateAnimation("Explode", 5, 260, 0, 100, 100, new Vector2(-10, -10), 5);
-            PlayAnimation("MoveRight");
+            if (type == 1)
+            {
+                CreateAnimation("idle", 1, 0, 12, 28, 32, new Vector2(0, 0), 5);
+            }
+            else
+            {
+                CreateAnimation("idle", 1, 0, 0, 28, 32, new Vector2(0, 0), 5);
+            }
+            
+            PlayAnimation("idle");
             spawn = pos;
             Position = pos;
+            typeEne = type;
             switch (type)
             {
                 case 0:
@@ -562,7 +568,22 @@ namespace Pacman
         }
         public override void LoadContent(ContentManager content)
         {
-            texture = content.Load<Texture2D>(@"card");
+            switch (typeEne)
+            {
+                case 0:
+                    texture = content.Load<Texture2D>(@"DoneLibrarian1");
+                    break;
+                case 1:
+                    texture = content.Load<Texture2D>(@"DoneLibrarian2");
+                    break;
+                case 2:
+                    texture = content.Load<Texture2D>(@"DoneLibrarian3");
+                    break;
+                case 3:
+                    texture = content.Load<Texture2D>(@"DoneLibrarian4");
+                    break;
+            }
+            
 
             base.LoadContent(content);
         }

@@ -36,27 +36,28 @@ namespace Pacman
             down = 4,
         }
         public Direction direction = (Direction)4;
-        public Player(Vector2 pos, int frames)
+        public Player(Vector2 pos)
             : base(pos)
         {
-            CreateAnimation("IdleUp", 1, 0, 12, 23, 32, Vector2.Zero, 1);
-            CreateAnimation("RunUp", 4, 0, 12, 23, 32, Vector2.Zero, 12);
-            CreateAnimation("IdleRight", 1, 0, 8, 23, 32, Vector2.Zero, 1);
-            CreateAnimation("RunRight", 4, 0, 8, 23, 32, Vector2.Zero, 8);
-            CreateAnimation("IdleDown", 1, 0, 0, 23, 32, Vector2.Zero, 1);
-            CreateAnimation("RunDown", 4, 0, 0, 23, 32, Vector2.Zero, 50);
-            CreateAnimation("IdleLeft", 1, 0, 4, 23, 32, Vector2.Zero, 1);
-            CreateAnimation("RunLeft", 4, 0, 4, 23, 32, Vector2.Zero, 8);
+            CreateAnimation("IdleUp", 1, 0, 12, 28, 32, Vector2.Zero, 1);
+            CreateAnimation("RunUp", 4, 0, 12, 28, 32, Vector2.Zero, 12);
+            CreateAnimation("IdleRight", 1, 0, 8, 28, 32, Vector2.Zero, 1);
+            CreateAnimation("RunRight", 4, 0, 8, 28, 32, Vector2.Zero, 8);
+            CreateAnimation("IdleDown", 1, 0, 0, 28, 32, Vector2.Zero, 1);
+            CreateAnimation("RunDown", 4, 0, 0, 28, 32, Vector2.Zero, 50);
+            CreateAnimation("IdleLeft", 1, 0, 4, 28, 32, Vector2.Zero, 1);
+            CreateAnimation("RunLeft", 4, 0, 4, 28, 32, Vector2.Zero, 8);
+            
 
             PlayAnimation("IdleUp");
 
             Position1 = pos;
             
-            
+
         }
         public override void LoadContent(ContentManager content)
         {
-            texture = content.Load<Texture2D>(@"Enemy1");
+            texture = content.Load<Texture2D>(@"DonePlayer");
 
             base.LoadContent(content);
         }

@@ -63,7 +63,7 @@ namespace Pacman
             IsMouseVisible = true;
 
 
-            player = new Player(new Vector2(300, 20), 10);
+            player = new Player(new Vector2(300, 20));
             enemyList.Add(new Enemy(new Vector2(320, 320), 0));
             enemyList.Add(new Enemy(new Vector2(352, 320), 1));
             enemyList.Add(new Enemy(new Vector2(320, 298), 2));
