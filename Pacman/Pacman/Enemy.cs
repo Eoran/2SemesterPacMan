@@ -252,7 +252,7 @@ namespace Pacman
             map.getNodeAt(13, 9).Col = false;
             map.getNodeAt(14, 9).Col = true;
             map.getNodeAt(15, 9).Col = true;
-            map.getNodeAt(16, 9).Col = true;
+            map.getNodeAt(16, 9).Col = false;
             map.getNodeAt(17, 9).Col = false;
             map.getNodeAt(18, 9).Col = false;
             map.getNodeAt(19, 9).Col = true;
