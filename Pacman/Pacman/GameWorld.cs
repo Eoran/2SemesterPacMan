@@ -30,7 +30,7 @@ namespace Pacman
         public static List<Cards> cards;
         public static List<Books> bookRem;
         public static List<Cards> cardRem;
-        int HighScore;
+        public static int HighScore;
 
 
         public GameWorld()
@@ -59,11 +59,11 @@ namespace Pacman
             IsMouseVisible = true;
             player = new Player(new Vector2(300, 20), 10);
             enemy = new Enemy(new Vector2(100, 100), 10);
-            //books.Add(new Books(new Vector2(200, 200), 1));
-            //books.Add(new Books(new Vector2(250, 200), 1));
-            //books.Add(new Books(new Vector2(200, 300), 1));
-           
+            books.Add(new Books(new Vector2(200, 200), 1));
+            books.Add(new Books(new Vector2(250, 200), 1));
+            books.Add(new Books(new Vector2(200, 300), 1));
 
+            #region tiles
             tiles.Add(new tiles(new Vector2(0, 0), 1));
             tiles.Add(new tiles(new Vector2(0, 32), 1));
             tiles.Add(new tiles(new Vector2(0, 64), 1));
@@ -313,12 +313,12 @@ namespace Pacman
             tiles.Add(new tiles(new Vector2(608, 96), 1));
             tiles.Add(new tiles(new Vector2(608, 64), 1));
             tiles.Add(new tiles(new Vector2(544, 32), 1));
-           
-           
-           
+            #endregion
+
+
             //Tiles making up the level
-            //cards.Add(new Cards(new Vector2(300, 200), 1));
-            //cards.Add(new Cards(new Vector2(340, 200), 1));
+            cards.Add(new Cards(new Vector2(300, 200), 1));
+            cards.Add(new Cards(new Vector2(340, 200), 1));
 
             base.Initialize();
             graphics.PreferredBackBufferWidth = 700;
@@ -382,7 +382,7 @@ namespace Pacman
                     if (cards.Contains(card))
                     {
                         cards.Remove(card);
-
+                        HighScore += 500;
                     }
                 }
                 cardRem = new List<Cards>();
@@ -393,9 +393,8 @@ namespace Pacman
                 {
                     if (books.Contains(book))
                     {
-                        HighScore++;
                         books.Remove(book);
-
+                        HighScore += 100;
                     }
                 }
                 bookRem = new List<Books>();
@@ -429,9 +428,7 @@ namespace Pacman
             // TODO: Add your drawing code here
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
 
-
-
-
+            this.Window.Title = "You're score is: " + HighScore.ToString();
             
             foreach (Books consu in books)
             {

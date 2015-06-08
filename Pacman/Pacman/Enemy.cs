@@ -19,6 +19,7 @@ namespace Pacman
         public static void init()
         {
             map = new path.Map(22, 21);
+            #region nodes
             #region collision top
             map.getNodeAt(0, 0).Col = true;
             map.getNodeAt(1, 0).Col = true;
@@ -523,6 +524,7 @@ namespace Pacman
             map.getNodeAt(20, 20).Col = true;
             map.getNodeAt(21, 20).Col = true;
             #endregion
+            #endregion nodes
         }
 
 
@@ -583,10 +585,7 @@ namespace Pacman
             }
 
             rectan = CollisionRect;
-            if (Player.isPower == false)
-            {
-
-            }
+            
 
 
 
@@ -594,12 +593,17 @@ namespace Pacman
             {
                 if (Player.isPower == true)
                 {
-                    position = new Vector2(100, 100);
+                    position = new Vector2(320, 300);
+
+                    path.Node start = map.getNodeAt(position);
+                    path.Node goal = map.getNodeAt(GameWorld.Player.position);
+
+                    pathen = map.findPath(start, goal);
                 }
 
             }
             
-            //position += (velocity * deltaTime);
+            
 
             base.Update(gameTime);
         }
