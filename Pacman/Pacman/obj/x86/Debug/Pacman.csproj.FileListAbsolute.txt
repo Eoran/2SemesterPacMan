@@ -123,3 +123,5 @@ C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX
 C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\spr_bookcase_0.png
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\Enemy1.png

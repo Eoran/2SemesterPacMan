@@ -25,7 +25,7 @@ namespace Pacman
         public override void LoadContent(ContentManager content)
         {
 
-            texture = content.Load<Texture2D>(@"part1_tileset");
+            texture = content.Load<Texture2D>(@"spr_bookcase_0");
 
             base.LoadContent(content);
         }

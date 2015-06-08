@@ -16,6 +16,13 @@ namespace Pacman.path
             tilew = tilewidth;
             tileh = tileheight;
             nodes = new Node[tilew, tileh];
+            for(int x = 0;x < tilew; x++)
+            {
+                for(int y = 0;y < tileh; y++)
+                {
+                    nodes[x, y] = new Node();
+                }
+            }
         }
         public Path findPath(Node start, Node goal)
         {
@@ -28,6 +35,14 @@ namespace Pacman.path
                 findh(goal);
                 List<Node> open = new List<Node>();
                 List<Node> closed = new List<Node>();
+
+                foreach(Node n in nodes)
+                {
+                    if(n.Col)
+                    {
+                        closed.Add(n);
+                    }
+                }
 
                 open.Add(start);
                 bool goalfound = false;

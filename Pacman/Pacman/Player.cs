@@ -39,28 +39,24 @@ namespace Pacman
         public Player(Vector2 pos, int frames)
             : base(pos)
         {
-            CreateAnimation("IdleUp", 1, 50, 0, 50, 50, Vector2.Zero, 1);
-            CreateAnimation("RunUp", 12, 50, 0, 50, 50, Vector2.Zero, 12);
-            CreateAnimation("IdleRight", 1, 100, 8, 50, 50, Vector2.Zero, 1);
-            CreateAnimation("RunRight", 8, 100, 8, 50, 50, Vector2.Zero, 8);
-            CreateAnimation("IdleDown", 1, 0, 0, 50, 50, Vector2.Zero, 1);
-            CreateAnimation("RunDown", 12, 0, 0, 50, 50, Vector2.Zero, 12);
-            CreateAnimation("IdleLeft", 1, 100, 0, 50, 50, Vector2.Zero, 1);
-            CreateAnimation("RunLeft", 8, 100, 0, 50, 50, Vector2.Zero, 8);
-            CreateAnimation("AttackUp", 9, 230, 0, 70, 80, new Vector2(-13, -28), 27);
-            CreateAnimation("AttackRight", 9, 380, 0, 70, 80, new Vector2(10, -5), 27);
-            CreateAnimation("AttackDown", 9, 150, 0, 70, 80, new Vector2(-4, -2), 27);
-            CreateAnimation("AttackLeft", 9, 310, 0, 70, 70, new Vector2(-30, -4), 27);
+            CreateAnimation("IdleUp", 1, 0, 12, 23, 32, Vector2.Zero, 1);
+            CreateAnimation("RunUp", 4, 0, 12, 23, 32, Vector2.Zero, 12);
+            CreateAnimation("IdleRight", 1, 0, 8, 23, 32, Vector2.Zero, 1);
+            CreateAnimation("RunRight", 4, 0, 8, 23, 32, Vector2.Zero, 8);
+            CreateAnimation("IdleDown", 1, 0, 0, 23, 32, Vector2.Zero, 1);
+            CreateAnimation("RunDown", 4, 0, 0, 23, 32, Vector2.Zero, 50);
+            CreateAnimation("IdleLeft", 1, 0, 4, 23, 32, Vector2.Zero, 1);
+            CreateAnimation("RunLeft", 4, 0, 4, 23, 32, Vector2.Zero, 8);
 
-            PlayAnimation("IdleDown");
+            PlayAnimation("IdleUp");
 
             Position1 = pos;
-            scale = 0.5F;
+            
             
         }
         public override void LoadContent(ContentManager content)
         {
-            texture = content.Load<Texture2D>(@"playerSheet");
+            texture = content.Load<Texture2D>(@"Enemy1");
 
             base.LoadContent(content);
         }
@@ -114,27 +110,7 @@ namespace Pacman
                 PlayAnimation("IdleDown");
                 velocity += new Vector2(0, 0);
             }
-            if (keyState.IsKeyDown(Keys.Space))
-            {
-                if (direction == (Direction)4)
-                {
-                    PlayAnimation("AttackDown");
-                }
-                if (direction == (Direction)1)
-                {
-                    PlayAnimation("AttackRight");
-                }
-                if (direction == (Direction)2)
-                {
-                    PlayAnimation("AttackLeft");
-                }
-                if (direction == (Direction)3)
-                {
-                    PlayAnimation("AttackUp");
-                }
-
-                velocity += new Vector2(0, 0);
-            }
+            
         }
         public override void Update(GameTime gameTime)
         {

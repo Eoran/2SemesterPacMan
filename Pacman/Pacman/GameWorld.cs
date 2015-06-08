@@ -14,8 +14,13 @@ namespace Pacman
     /// </summary>
     public class GameWorld : Game
     {
-        
-        Player player;
+
+        static Player player;
+
+        internal static Player Player
+        {
+            get { return GameWorld.player; }
+        }
         Enemy enemy;
         
         GraphicsDeviceManager graphics;
@@ -43,6 +48,7 @@ namespace Pacman
         /// </summary>
         protected override void Initialize()
         {
+            Enemy.init();
             // TODO: Add your initialization logic here
             books = new List<Books>();
             cards = new List<Cards>();
@@ -418,7 +424,7 @@ namespace Pacman
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Gray);
 
             // TODO: Add your drawing code here
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
