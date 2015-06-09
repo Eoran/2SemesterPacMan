@@ -562,7 +562,7 @@ namespace Pacman
                     deathcount = 800;
                     break;
                 case 3:
-                    deathcount = 2000;
+                    deathcount = 1000;
                     break;
             }
 
@@ -591,6 +591,14 @@ namespace Pacman
         }
         public override void Update(GameTime gameTime)
         {
+            if (Player.isPower)
+            {
+                color = Color.MediumBlue;
+            }
+            else
+            {
+                color = Color.White;
+            }
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (deathcount == 0)
             {
@@ -657,7 +665,7 @@ namespace Pacman
                             deathcount = 800;
                             break;
                         case 3:
-                            deathcount = 2000;
+                            deathcount = 1000;
                             break;
                     }
                 }

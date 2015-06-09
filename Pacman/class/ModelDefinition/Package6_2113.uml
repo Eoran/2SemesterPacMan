@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="28d17342-50f0-46ef-8b74-e216bb8a0de5"
+  name="path"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1ef37f79-5cd9-4ac7-bac3-e944c19e30ed"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPacman.path"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="cbfdc96b-7d48-43a5-832f-9af70e8352d6"
+        name="Path"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5c4c6b30-7e72-4b4e-9cd5-d884dc0e91ab"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c312872e-aac8-40a9-8603-ef352fa6e593"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8689449-de15-4b54-9a33-39451bb91cb7">
+                <propertyInstance
+                  Id="e765d7e7-03c4-46a7-9eb2-ae218cd6203c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab021560-a23b-4c5b-99c1-41b47efb879f">
+                <propertyInstance
+                  Id="96dbf028-8e74-4768-be5a-d75c9104e726"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c428d167-7294-4d2a-99b2-b474154311ab">
+                <propertyInstance
+                  Id="16ee54c1-eb1f-48d3-8135-331d1826bebd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70cb86a0-4ac5-4b7b-a653-687041da0967">
+                <propertyInstance
+                  Id="b39fdfd7-5c63-4b26-b1f2-2955997deac5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82d73299-b531-4b9b-a184-337020853414">
+                <propertyInstance
+                  Id="f6ee2124-ccf1-418e-ae88-dc4d6bf3d63e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f3eb792f-31c6-45e8-94a6-49923b17b5a7"
+        name="Map"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="679bc624-c39b-41d4-a58c-232379f55653"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FKristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4cbb74a9-3168-481a-9e75-fb4e2883ee1d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dfacb7a-9a92-4495-9937-36a530ec1df5">
+                <propertyInstance
+                  Id="f9cab94f-e017-4835-8b36-88d50fdf6f6c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96b7134e-9694-4aaa-ba4c-82178b9063e8">
+                <propertyInstance
+                  Id="55c1461f-ab9d-442d-8d46-ced7bb0512b1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4415ab2-fd1d-4241-8fa2-e85ba732b6a4">
+                <propertyInstance
+                  Id="f3f40a9b-1a97-4761-8fe7-707b87aaa889"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f91c9e19-3d9a-467c-b511-6d385b2aa17a">
+                <propertyInstance
+                  Id="8a4a58ca-96e8-46f1-886b-719d5f2673f4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82da9939-86f5-4dbf-ae38-a09ad85625f3">
+                <propertyInstance
+                  Id="3991ac90-b4df-477c-9558-cfb3c63350d7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

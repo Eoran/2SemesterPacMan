@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-09T21:13:42" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '0271f7d0-ccbf-4c5c-af08-9026aa996784' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '4b5fc8f3-8237-4d19-b5da-7f2fdb37a476' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '7111b2f6-a3c0-4c10-b37d-6e4ac7bf8c55' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Color' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Content' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Content::ContentManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Game' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::GameTime' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Graphics' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Graphics::SpriteBatch' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Graphics::SpriteEffects' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Graphics::Texture2D' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::GraphicsDeviceManager' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Input' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Input::KeyboardState' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Rectangle' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Microsoft::Xna::Framework::Vector2' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::fps' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::frames' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::height' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::offset' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::width' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::xStartFrame' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Animation::yPos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::fps' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Fps' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::offset' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Offset' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::rectangles' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Animation::Rectangles' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Books' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::Books' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::Books::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::rectan' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Books::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::Cards' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::Cards::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::rectan' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Cards::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Direction' -  (Enumeration)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Direction::down' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Direction::left' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Direction::right' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Direction::up' -  (EnumerationLiteral)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::deathcount' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Enemy' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Enemy::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Enemy::type' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::init' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::map' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::pathen' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Position' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::rectan' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::spawn' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::typeEne' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Enemy::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::bookRem' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::books' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::cardRem' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::cards' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Draw' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Draw::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::enemyList' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::GameWorld' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::graphics' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::HighScore' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Initialize' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::player' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Player' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::spriteBatch' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::tiles' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::UnloadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::GameWorld::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::path' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::path::Map' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::path::Path' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Player' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::direction' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::HandleInput' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::HandleInput::keyState' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::isPower' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Player' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Player::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Position' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Position1' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::powerCount' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::PowerCount' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::rectan' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Player::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::Program' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::Program::Main' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::animations' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::boxTexture' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CollisionRect' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::color' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::fps' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::frames' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::height' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::name' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::offset' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::width' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::xStartFrame' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::CreateAnimation::yPos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::currentIndex' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::Draw' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::Draw::spriteBatch' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::effect' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::fps' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::layer' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::offset' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::origin' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::PlayAnimation' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::PlayAnimation::frameName' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::position' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::rectangles' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::scale' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::speed' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::SpriteObject' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::SpriteObject::position' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::texture' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::timeElapsed' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::SpriteObject::velocity' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Medium" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles' -  (Class)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::LoadContent' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::LoadContent::content' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::spawnblok' -  (Property)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::tiles' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::tiles::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::tiles::spawn' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::Update' -  (Operation)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::Pacman::tiles::Update::gameTime' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::Dictionary' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::Dictionary&lt;String‎, Animation‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::List&lt;Books‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::List&lt;Cards‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::List&lt;Enemy‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Collections::Generic::List&lt;tiles‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'class::System::Single' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Cards to class::Pacman::SpriteObject (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Enemy to class::Pacman::SpriteObject (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::GameWorld to class::Microsoft::Xna::Framework::Game (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Player to class::Microsoft::Xna::Framework::Vector2 (Association)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Player to class::Pacman::SpriteObject (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::SpriteObject to class::Microsoft::Xna::Framework::Rectangle (Association)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::tiles to class::Pacman::SpriteObject (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Animation to class::System::Single (Association)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Animation to class::Microsoft::Xna::Framework::Vector2 (Association)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Animation to class::Microsoft::Xna::Framework::Rectangle (Association)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: class::Pacman::Books to class::Pacman::SpriteObject (Generalization)" />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="High" Text="(10) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="High" Text="(21) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-06-09T21:13:56" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

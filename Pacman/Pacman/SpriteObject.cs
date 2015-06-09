@@ -20,7 +20,7 @@ namespace Pacman
         private float timeElapsed;
         protected float fps;
         private Dictionary<string, Animation> animations = new Dictionary<string, Animation>();
-        private Color color = Color.White;
+        public Color color = Color.White;
         private SpriteEffects effect = new SpriteEffects();
         protected Vector2 velocity;
         private float layer;
