@@ -589,55 +589,41 @@ namespace Pacman
 
             base.LoadContent(content);
         }
-        private void ChasePlayer()
-        {
-
-
-        }
         public override void Update(GameTime gameTime)
         {
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (deathcount == 0)
             {
-                if (Player.isPower)
-                {
-                    path.Node start = map.getNodeAt(position);
-                    path.Node goal = map.getNodeAt(12, 19);
 
-                    pathen = map.findPath(start, goal);
-
-                }
-                else
+                if (pathen != null)
                 {
-                    if (pathen != null)
+                    Vector2 dir = pathen.Target - position;
+                    float distance = dir.Length();
+                    float step = speed * deltaTime;
+
+                    if (distance < step)
                     {
-                        Vector2 dir = pathen.Target - position;
-                        float distance = dir.Length();
-                        float step = speed * deltaTime;
-
-                        if (distance < step)
+                        position = pathen.Target;
+                        if (!pathen.Next())
                         {
-                            position = pathen.Target;
-                            if (!pathen.Next())
-                            {
-                                pathen = null;
-                            }
-                        }
-                        else
-                        {
-                            dir.Normalize();
-                            position += dir * step;
+                            pathen = null;
                         }
                     }
-
                     else
                     {
-                        path.Node start = map.getNodeAt(position);
-                        path.Node goal = map.getNodeAt(GameWorld.Player.position);
-
-                        pathen = map.findPath(start, goal);
+                        dir.Normalize();
+                        position += dir * step;
                     }
                 }
+
+                else
+                {
+                    path.Node start = map.getNodeAt(position);
+                    path.Node goal = map.getNodeAt(GameWorld.Player.position);
+
+                    pathen = map.findPath(start, goal);
+                }
+
 
             }
             else

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-09T12:50:11" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'cab5c89c-fe41-47ce-9802-85076d331ab2' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Xna' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Xna::Framework' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Microsoft::Xna::Framework::Vector2' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map' -  (Class)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findh' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findh::goal' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPath' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPath::goal' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPath::start' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPos' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPos::n' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPos::x' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::findPos::y' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::getNodeAt' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::getNodeAt::pos' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::getNodeAt::x' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::getNodeAt::y' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::manhatten' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::manhatten::x1' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::manhatten::x2' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::manhatten::y1' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::manhatten::y2' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::Map' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::Map::tileheight' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::Map::tilewidth' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::nodes' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::Reset' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::tileh' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::tilew' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::TracePath' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Map::TracePath::goal' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node' -  (Class)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::col' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::Col' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::F' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::g' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::G' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::h' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::H' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::Node' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::parent' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Node::Parent' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path' -  (Class)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::Next' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::Path' -  (Operation)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::Path::path' -  (Parameter)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::que' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::target' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Pacman::path::Path::Target' -  (Property)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::Queue' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::Queue&lt;Vector2‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Pacman::path::Path to ModelingProject1::Microsoft::Xna::Framework::Vector2 (Association)" />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-06-09T12:50:13" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

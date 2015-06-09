@@ -1,0 +1,2577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="179ff7bf-701a-4667-ac4e-71ced4ee99ca"
+  name="path"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5bcc08e9-80ab-45a3-96e0-14f81a00b018"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPacman.path"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="b1e2f725-19a0-43a7-9396-a48a00540d54">
+      <profileInstance
+        Id="11cadeff-43b8-4b4c-9de8-1db95d2e0dc5"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+        name="Node"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8b3c3f96-470a-4d03-835c-e6721f5b590e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3D(Name%3DNode ArrayRank%3D2 ParentType%3DNode)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a98860f7-735e-4639-89ad-c08f90cd6445"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="707415d4-358d-4726-b5fd-7f7343444193">
+                <propertyInstance
+                  Id="eb21de92-4733-4cb7-b244-ffbc44356e3c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8cedce25-9f96-497a-baa0-941172d97779">
+                <propertyInstance
+                  Id="d9ccf121-e91b-4dac-b3db-ac05d123c55d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d7d7aff-7f56-474d-b53a-dde2eb64e251">
+                <propertyInstance
+                  Id="56c2ea09-4885-40ba-9b0a-62313e669144"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="337731c6-53da-419d-b83e-d4f45b8da88c">
+                <propertyInstance
+                  Id="9e8fe2d4-c5af-4993-870d-99cead881c0c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4c156c0-070f-468e-a8b9-28c645ca28c8">
+                <propertyInstance
+                  Id="c5d05999-2c5f-4172-abcb-903b4e4fb159"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b2367a7c-7496-4e67-a0af-2269daf5cd12"
+            name="H"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b8e89820-7978-4b27-a87e-4c998a5f864a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3DH"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="efb05a63-3b86-4da9-bf98-fcdf2668c171"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e75fc4b-717e-46dc-9e98-540d3207796c">
+                    <propertyInstance
+                      Id="2f0a0f67-4eb9-49eb-8dc3-8e3eaaaf3e3d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="844327bc-f1cc-4c0a-bf4f-f2f7a45fcea2">
+                    <propertyInstance
+                      Id="38b8061b-9a42-4fce-a777-2e9463d441db"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b77ddaea-5c88-44c5-b842-4999443402ae">
+                    <propertyInstance
+                      Id="993fe79d-1da1-4f72-8384-d689ce1bec42"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16b9617c-4de0-43bf-8a91-efeb4ae0b1c5">
+                    <propertyInstance
+                      Id="7d7e3afb-34fc-42ea-98e5-b7c44265f734"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad3c4cab-ff97-4fa6-a6fe-9630998dd388">
+                    <propertyInstance
+                      Id="59ad57de-5cfc-47e4-9600-34764bd0b6ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f3e12c0-1b43-4e5c-b08d-2a8b2a2573ac">
+                    <propertyInstance
+                      Id="780fadd5-cd44-4047-9ec4-916972dde98c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24029289-0dbb-4068-84d3-4b8669cb3aa1">
+                    <propertyInstance
+                      Id="95e17693-5520-44d6-971d-8918e8ea4439"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="960b63a5-c14d-4617-974b-08bdf8f53df8"
+            name="G"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="486fe19c-8076-420c-bb48-1077ca9ff431"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3DG"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eb8e886f-cde2-41b3-b263-b25da984492a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dea103e-0816-40e1-8b5c-f65dd00e2d7b">
+                    <propertyInstance
+                      Id="f00125c3-bcd1-4932-a256-495991d6ebd4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9bc28b7-bda7-4012-8793-edef0d068155">
+                    <propertyInstance
+                      Id="e29aa2b1-fc66-488a-8509-6e9188d48f25"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ce53aae-44ba-4aa4-a4a8-ef51391e44b4">
+                    <propertyInstance
+                      Id="d2a15c1b-561e-4edb-8890-9a6abf4f4393"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9fd63ae-141c-4863-899f-910fac67a4cd">
+                    <propertyInstance
+                      Id="1c62e327-8ea9-47dd-bd4d-59fa1f241fc9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a7db18b-7fa2-4550-aa4c-3e1f2f165efb">
+                    <propertyInstance
+                      Id="ee06d655-4723-4685-b8d2-58081817f1d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5aefec1-3c4b-4db7-bc7a-77ca26146c76">
+                    <propertyInstance
+                      Id="b6aae1fd-f660-4312-809c-675e1907d378"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c26f7c1-afd6-4e32-9d33-b2b3b7e52b1e">
+                    <propertyInstance
+                      Id="a80efe3e-d186-4fe9-bb34-16058a7b7d14"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c8c1ac8d-a15f-4b5a-8456-36deab3531c1"
+            name="F"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eb1edaf5-76a9-453d-a314-572dff23d04e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3DF"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e7fa092-626a-45aa-adf7-074224f58c8c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd60988b-ac1c-40b9-85f1-9bbc7a851113">
+                    <propertyInstance
+                      Id="49f51067-3bce-47c3-a09d-7be62f0aa7b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e030fdec-2a4c-4230-be78-32bc971e2449">
+                    <propertyInstance
+                      Id="73016a0e-4108-46f5-8501-5f1c46740a43"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="973e8bcc-5f5a-445f-80df-f0e4c17fb6fd">
+                    <propertyInstance
+                      Id="76a8113e-0a98-4b99-b06c-be69fce220ef"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dceacee5-d09c-4b33-9f6a-9d01454ec418">
+                    <propertyInstance
+                      Id="919fa55f-fa12-4c7c-9812-635adea0b219"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b16ceae9-32d2-49e2-8f74-a6667bb48b0d">
+                    <propertyInstance
+                      Id="e1fe1b13-ee43-46ee-8e09-6cd304a84f73"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba3c9021-9195-4c10-8643-932b60b6cd33">
+                    <propertyInstance
+                      Id="d6daaaa7-124e-437e-97d0-d07255eb9e2e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a15a6e4d-bad0-43f1-ac2a-bdaf18ad3efb">
+                    <propertyInstance
+                      Id="0dfb36db-4c3e-4e3b-960b-ca1289f8b17b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="23d257ea-508c-45cf-bdba-ca18398a07d6"
+            name="Col"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="91a58dc9-0e7d-48cc-acd7-6edc78f364ac"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3DCol"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a286bd2c-0555-491b-b6f9-faeb77fdea93"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2828eec6-5bc4-4f99-91a2-0b8d14e61edc">
+                    <propertyInstance
+                      Id="aca102aa-51b0-4d97-a97b-b7d4b6e3e8ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba6af71f-b545-45d3-b142-579c9173dbc4">
+                    <propertyInstance
+                      Id="5d6efb70-1bc0-4f64-a792-506ce2c2ecd1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47852bc4-602b-4984-bea2-2a1945182450">
+                    <propertyInstance
+                      Id="86e8b296-b35c-449b-bf89-02a03f9eb512"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfc49d66-861e-4bed-9c0f-4f71ffe8199f">
+                    <propertyInstance
+                      Id="953d0e35-3f87-4e23-9f1d-5828f5398b01"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56832b27-232b-428c-8bf2-d573f219fb0d">
+                    <propertyInstance
+                      Id="53e9639a-e5dd-41b4-8ea6-fad1a13de3aa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd1c6299-8808-4112-96d3-1e0691692901">
+                    <propertyInstance
+                      Id="6da3b012-fa69-4d6f-ba70-fa7962a66340"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed80310a-cede-4237-a0dd-de70c31d45e3">
+                    <propertyInstance
+                      Id="11e878cd-02d2-4131-ac9d-d049139223d4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a3e94cd4-cc18-4af7-afff-65e9ede4ce5f"
+            name="Parent"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="18986893-37ed-4682-834d-f411edf5f2b0"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3DParent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27267cdf-0522-46fc-9d36-99c2b567e099"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e328fbd-ef23-4cfc-aad9-17fb10c2c6f0">
+                    <propertyInstance
+                      Id="2df19b64-82d8-4d38-920a-311d7316f465"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="222732fd-a6a8-4504-bb14-9643369ee51e">
+                    <propertyInstance
+                      Id="1fd04c83-7d07-47a6-bff5-45fddba052c4"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3405582-f22e-487d-ae7f-ba5bad598f6a">
+                    <propertyInstance
+                      Id="0cef93f5-63e4-4d4c-8c9b-870acad1310d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba7ae51b-6ee7-47fb-8588-2001f2613773">
+                    <propertyInstance
+                      Id="2caafdfe-3a28-4dd7-9b04-ccf571931924"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3968e07-f060-49dd-b02d-4893849004b7">
+                    <propertyInstance
+                      Id="c13c3d0d-4b93-4d05-8b48-52e8a7df0e8e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01d39be6-fe68-4b4c-81b3-2dac84cd9fcd">
+                    <propertyInstance
+                      Id="b0a78ab8-08d6-4dc2-a6d5-6e681beb38a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2bc1d3a-7512-467f-b893-d15cfc00a2dc">
+                    <propertyInstance
+                      Id="ae440253-4a2a-42ec-b280-031de03920fa"
+                      name="Set"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                LastKnownName="Node"
+                LastKnownLocation="Package1_1250.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c98e2763-57d9-4e3e-bd38-cd76e3829fb8"
+            name="h"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c4265c43-4936-4f85-924a-132475418321"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3Dh"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d87894f-4b55-4a29-a3d0-423a4c3c256f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="308c8423-be27-4faa-8b7e-2c747aeab52c">
+                    <propertyInstance
+                      Id="38578abd-328a-484d-8db1-f8afb0d21817"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9056592a-94df-4b17-ada7-a1fc00f8d0a5">
+                    <propertyInstance
+                      Id="a2552d46-4371-473f-8b2a-b27be54d3b25"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa225e7e-3a51-48cf-b499-ffa8e5bcd088">
+                    <propertyInstance
+                      Id="c675b36e-29d6-4265-8e07-00617b75d077"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8512e429-2e8c-48f1-a0ff-d70938e770ee">
+                    <propertyInstance
+                      Id="951c54b9-a043-4e89-ab1d-202c7f52844b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74f4857e-e774-494b-97eb-cdb5bf67a75a">
+                    <propertyInstance
+                      Id="7df4909e-2edb-4d52-9567-835a3f6306c3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0ec63852-edd0-4c63-b6ac-dfab47546c4c"
+            name="g"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="27ab6fc1-3c7c-4872-ad19-97d9ebf62fc3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3Dg"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5258b0dc-4dac-492d-8dc3-4b1e5c0820d7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52cda091-b562-4751-9920-141229ed8f88">
+                    <propertyInstance
+                      Id="dc819639-573a-4c0c-b433-b3f555fa77dd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ca46511-2190-4254-b9a2-8404e1280b02">
+                    <propertyInstance
+                      Id="9275866f-1e2a-418a-8d34-c5ea6553ea0d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69054738-dc36-4db5-81db-3e5c77831176">
+                    <propertyInstance
+                      Id="e4398a2d-505c-431c-9506-e7ad80652fd0"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d69cc10f-879e-4f0e-907c-0c7393b18679">
+                    <propertyInstance
+                      Id="95c73f28-38d5-4326-b82d-54a552e443f1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db63a2ec-5c27-4a8a-bf9e-5837ee208fbd">
+                    <propertyInstance
+                      Id="7730e8d9-565b-4cf0-a6c8-249c0c5f94dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7af666ae-5417-4226-a157-d1642d933c3a"
+            name="col"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="054ef297-9933-4861-939e-35bd006e964c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3Dcol"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d4998a77-d325-4fbf-a8a7-79155a7a8ef1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fef715bd-cc87-421c-bbca-3d3f9bb79e4d">
+                    <propertyInstance
+                      Id="e4a3b136-086a-4bd8-a2d8-9bf3314426ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29f96bee-c671-413c-9be6-d2e923d76060">
+                    <propertyInstance
+                      Id="f33e3c8e-8add-461f-ae17-0e42036f3d8d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7d22b15-06ab-473a-8bc5-42eabce49932">
+                    <propertyInstance
+                      Id="cccc55ac-df31-4bfc-adcd-c04978a973bd"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="791031ae-3409-45dd-83a9-e573c91f3282">
+                    <propertyInstance
+                      Id="507957a2-fba1-435e-96e7-f26819e80fde"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2f7de38-66c6-45ae-a42f-4b6ed841944c">
+                    <propertyInstance
+                      Id="fd9f20c4-9b9b-471f-be98-e72438d78bd3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cdb56d7b-1219-46ee-b05b-6a4d710bef37"
+            name="parent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="307c99d2-1d80-44e1-833f-d26083f36902"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3Dparent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f2961cf-0f06-4f01-9ee0-a86248b60571"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe1e3bae-a278-49f3-8eb8-da846c9bf64d">
+                    <propertyInstance
+                      Id="34695fa5-0953-4633-bf35-6a8eb56d3710"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ac5a355-2a72-4af6-a894-9b9563403a2a">
+                    <propertyInstance
+                      Id="89925d8a-072f-4ca5-95a2-fa7134bbb47f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="622d572b-fb1f-4dd7-8a8e-e70a7831ce63">
+                    <propertyInstance
+                      Id="a77ae2a6-518e-4b26-b69b-1dc0260876ea"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59fd8c93-5a01-41d9-bebd-0ac43abc88d2">
+                    <propertyInstance
+                      Id="2591f7aa-57ea-4df6-b1c3-64c01808e0b1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c8fe086-3c9c-4352-9eb6-10a7fc17125e">
+                    <propertyInstance
+                      Id="1ef20338-4f11-447b-a560-4b7976123843"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                LastKnownName="Node"
+                LastKnownLocation="Package1_1250.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e003dd60-dbe4-4d8f-b20e-a4cbff19536b"
+            name="Node"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0f87f32c-bf16-464c-8dc5-1f520419716b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a2820018-c1bf-41e5-89d3-ba9483146407"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7420d60a-ce2f-4853-a69f-55e782e76ecf">
+                    <propertyInstance
+                      Id="73419916-67f1-4e51-a0a6-396d8948488c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c73090ca-5929-462f-85d3-86ec91c2bba7">
+                    <propertyInstance
+                      Id="079806d6-902a-4cd2-9e5d-e3d67e44a180"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73390f3b-2f78-4ace-aa64-94026888048f">
+                    <propertyInstance
+                      Id="9774de34-f2fd-46e9-9a73-b2debdf9956c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31682cff-5e4d-488e-a30a-e6a6f64d2b30">
+                    <propertyInstance
+                      Id="5d622da8-b724-4c9c-9ce3-6de86664044a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d225407-cb55-4231-84e3-d7a703655bc3">
+                    <propertyInstance
+                      Id="8e38a93f-a7f8-4531-9d13-00ad490daa7b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28041e11-52b3-458c-961a-7d297882bae0">
+                    <propertyInstance
+                      Id="1f9f4cc1-1af1-46d8-aab3-3e6c526a5bdd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f007cfee-c366-447a-a865-b2ef1cd1a65f"
+        name="Map"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="358d0038-d39c-48bb-8311-f9a5150dee0b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ebda1c30-5f33-4eab-a1b7-f7220db8ac34"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d3df995-0608-430d-8f58-c7b576893f04">
+                <propertyInstance
+                  Id="4b04892e-0cc2-4e9c-af37-5ee00a51a68a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c8ebfc2-4ffa-45c2-82a1-22371b00dad8">
+                <propertyInstance
+                  Id="6854fcd3-7575-49fd-9f95-271070c4e4cb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e1098a0-edd3-4957-b0ae-4c467bdedea8">
+                <propertyInstance
+                  Id="39e373be-d03d-4aba-afa0-a6a8634fe48a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b456e65-2ea4-40d0-a6c6-c8aad98016fa">
+                <propertyInstance
+                  Id="2c49167f-d384-4c0d-98ff-27e2b20f710f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c1ad0b0-bb92-41b9-a210-f6e3c4846433">
+                <propertyInstance
+                  Id="1c506331-2072-4926-b8ad-bf635608c194"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c6a0e3cf-ad94-42bc-a33f-c40d1fb5e33d"
+            name="tilew"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1d72b98b-477b-48b2-83d1-11420b795726"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3Dtilew"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9c191ea-449c-4562-9438-f6af3ac29a88"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a49cddc6-440a-4477-b2a4-4052abaa0721">
+                    <propertyInstance
+                      Id="e5ab6101-0547-444e-bb66-678cfcda42e4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0d39a77-eff5-4186-81a7-df1864703838">
+                    <propertyInstance
+                      Id="b12d792e-77bd-4b2f-83c1-a37c2ccbed92"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b60e8ca-4f24-4469-b3b6-3cdb7b6454e6">
+                    <propertyInstance
+                      Id="37e24016-3c8e-4d67-8f06-03f3b073147c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f10c61ef-f137-4178-af24-c740f57d7f1c">
+                    <propertyInstance
+                      Id="3bb32d57-7d5d-4be9-8f0d-46f28c9e97b9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98b86bd2-9d58-4ad0-90d2-b529c84ebe4b">
+                    <propertyInstance
+                      Id="bc9b710b-d217-4dc5-b673-855c4bb1d947"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a5c7df0a-53be-4d1a-9b2c-c4e29e05e7ea"
+            name="tileh"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ec36c257-406a-4d13-ae73-4ca624113418"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3Dtileh"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6c0a8c19-9598-4981-8c2c-fff712ad0f33"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1f22f47-a7d6-497c-b26d-a6f2a15db8f4">
+                    <propertyInstance
+                      Id="2f0b305d-0fd8-406e-8e4c-a301a55b9ee2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e1edea6-b2de-4c58-b7ea-199cdb4ddbfc">
+                    <propertyInstance
+                      Id="1cb7eb96-a4f2-43c1-9bf3-8beaa7ca7393"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a6dfda6-aa90-4364-a1d6-b4443f5e065e">
+                    <propertyInstance
+                      Id="4af79975-a6a9-4106-ad35-b64e44bc487e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c8a27af-efc5-4bd4-9070-d2e2036999f1">
+                    <propertyInstance
+                      Id="6ed50f91-b99e-4b5f-a011-b2a10d7290c4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da617e42-48a0-4206-8864-d6e12ff2edf8">
+                    <propertyInstance
+                      Id="225c8964-22bb-424a-a7f4-8383638d2aa4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e75488e2-e019-48ec-afae-fdf3988a6524"
+            name="nodes"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5fbe70ec-cc00-4308-b6a8-cb5957c3c1e3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3Dnodes"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d9958adf-9b58-4111-93a6-ed8d92525388"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a22d8e90-1acb-4759-97b6-6c40f5b45a77">
+                    <propertyInstance
+                      Id="59839a21-a064-4be4-8faa-80fd3c8c2f36"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ae11611-0082-4644-b830-c8907b43f38e">
+                    <propertyInstance
+                      Id="39323487-02b0-4f21-ac1e-d5b0553ea619"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbd6888a-9245-4d15-949b-556b8c1b19d5">
+                    <propertyInstance
+                      Id="3affe174-7613-4c48-83fb-408abc9dc22e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="093333b6-ea26-4008-9275-6c54863fdd14">
+                    <propertyInstance
+                      Id="9f7d93aa-caa5-4e9a-8a38-e6c4bae42028"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75cd47f8-a3eb-409b-935b-753fddb9eeb0">
+                    <propertyInstance
+                      Id="bce1b0e4-c922-49fc-90df-8afae098adf8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="9ce895aa-b8da-45a9-a27d-504064cf0913"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="d4b5d227-f1d2-4402-84a0-9a53eabed8df"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                LastKnownName="Node"
+                LastKnownLocation="Package1_1250.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="14c71ebf-b3ec-4028-a4a6-bd136c2467d5"
+            name="Map"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="485df8e6-f600-4af1-83d8-ddd53502743e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8654041b-5f94-4068-8f0e-99986cf8a960"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2512489-6f71-4cc7-9d51-97f692b67f1e">
+                    <propertyInstance
+                      Id="73e1d900-cc9a-44c9-91d5-b87d9e853c2e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0eb70129-0c41-4817-bfdf-5794456d3088">
+                    <propertyInstance
+                      Id="9f1e1b01-ed82-4cb7-851d-f4b4ec5184e1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cbf7366-e41d-4397-952d-2ace67f8aa99">
+                    <propertyInstance
+                      Id="ccec3863-11ba-4b9f-bc95-92c53bbd68e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d804026d-a93f-46be-8238-ac647f87eaf0">
+                    <propertyInstance
+                      Id="b9a0e88e-d95f-4692-ae13-6d4d44717473"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="087de2fe-38c8-4e86-ae8f-62ff0f327f06">
+                    <propertyInstance
+                      Id="4446c857-9b73-41fc-a3a0-dfd83c3f4d7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f62d4b8-a0ad-4bdc-9bad-51d732c7c03a">
+                    <propertyInstance
+                      Id="2cb82114-9b10-47ae-bc9a-b7a9dc2c9e07"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a596763d-bd37-49ba-8af7-a8df3ba515b3"
+                  name="tilewidth"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c4fade82-eabf-4afc-be28-cffc8a45b28e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dtilewidth"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="69b5cf44-73eb-4bc6-a847-e3c33763c1cc"
+                  name="tileheight"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="224a9fbe-ce61-453c-bafd-45a433f3f916"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dtileheight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="304fe33f-645c-4f56-a982-9f3bb86af3d5"
+            name="findPath"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f08f48f6-ed5d-4a38-a1c1-f35cb03d13b6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPath OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aaef60d9-b13e-4210-bf92-eca03cae26f8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3efb871c-0196-4960-adcf-bc028ce766f9">
+                    <propertyInstance
+                      Id="b7cdbb35-91b8-408c-a417-fa3a1e1e1761"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93969eb7-b82a-4a31-9b2b-fae5b1180504">
+                    <propertyInstance
+                      Id="a947848e-d334-4b4d-a4de-e266976f1dcf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84719826-98d6-484d-91c8-10f67ea6c1e6">
+                    <propertyInstance
+                      Id="97b51a72-4b9f-442c-b9f9-e487b604c059"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c35b7d2c-c373-4e63-9b4c-e04dfc1bb800">
+                    <propertyInstance
+                      Id="194842cf-595f-4050-87a5-c470f91e3df2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe59f6b8-2224-4183-ab97-6b1b9b117467">
+                    <propertyInstance
+                      Id="8afc82a4-5820-4956-8ec7-0e12f6862445"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="807a196c-37c0-4328-86ed-e9c9ac994120">
+                    <propertyInstance
+                      Id="241580fb-f2eb-4c01-9aae-449d10e1c3e6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="827ee526-82d0-4f63-b87e-0705b9801ab9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="39ddb924-bf50-472a-9e46-14bf7c6a68bd"
+                      LastKnownName="Path"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dfb4b521-37a8-47b1-a44d-831a14c3b516"
+                  name="start"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed6a3039-c618-4a81-a961-65adfb44f1fc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPath OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)]) ParameterIdentifier%3Dstart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="153a7cab-f855-4020-824d-a324a304fcc7"
+                  name="goal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9a8713d1-8d96-4234-ba5d-607e867e1f4d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPath OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)]) ParameterIdentifier%3Dgoal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dba5c96d-4334-41dc-8175-ee1738642234"
+            name="TracePath"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="17c1989e-de7f-44fc-bbd3-a7b8d73d610b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DTracePath OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33de8dcb-0d88-44fb-8f8d-95b7e1d683d1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f0af9a-8b53-478b-85c9-0ebe4a58c80a">
+                    <propertyInstance
+                      Id="50110f3f-cdb4-4cc3-86e5-e341e6c1ee80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5338c524-32d9-47df-a003-7229e6378f3d">
+                    <propertyInstance
+                      Id="92499906-e577-43b3-b50f-f697ab1e584f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfd89946-dee0-4a43-b787-ba0dd29d1474">
+                    <propertyInstance
+                      Id="72232c0b-98a3-49b1-a39d-e4b7a7d774f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09a46f87-2a54-4091-945c-975b8d4bf61d">
+                    <propertyInstance
+                      Id="5dc519bf-0327-4e31-9867-e3dfed4cbc8c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8d0b2c9-46d0-4d26-9d48-b15dd38f5d06">
+                    <propertyInstance
+                      Id="ec101796-7620-4cc7-b665-0e52be00f3d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="738b0ca5-36de-423a-880a-31c0621107d3">
+                    <propertyInstance
+                      Id="16818290-5729-4f08-9fbe-65c53ac0deb7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="929957b0-05bf-4eec-b322-172b1d56965c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="39ddb924-bf50-472a-9e46-14bf7c6a68bd"
+                      LastKnownName="Path"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f5538b4c-55d1-459f-b82c-1e2d204e685e"
+                  name="goal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83c20bb5-2960-4b42-a379-28516738e051"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DTracePath OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)]) ParameterIdentifier%3Dgoal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b3c26e19-cbc0-439a-b667-2e44d6245182"
+            name="findh"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="39dbb4cf-547d-47a3-b866-db3dfa09e293"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dfindh OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="176aca8e-34bf-4d51-86cb-d13009eb1d5a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28e0d93b-dee0-46e4-a7b3-4d161d69771f">
+                    <propertyInstance
+                      Id="c036f509-eca7-4d9e-89c8-93aa2e593714"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="410dfb33-89b3-483e-ba80-dd5a6b8fda00">
+                    <propertyInstance
+                      Id="f0708534-3af5-43b9-a81c-b760524daec6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b873730-85b2-4922-8bda-ca5222505ac7">
+                    <propertyInstance
+                      Id="bec0f796-cbe7-4d4c-8d5b-8e494e45cc8c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fa6067e-c10c-4877-bfba-70bbba910399">
+                    <propertyInstance
+                      Id="3825012f-98e1-41c5-b93b-3486143f4bbd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81a4f188-6c29-4cb3-8c79-eac7d7188eae">
+                    <propertyInstance
+                      Id="01fd5089-edfd-4251-b854-211fb9a3ac95"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="546ab034-a84b-4a11-99c6-f4f400ff190e">
+                    <propertyInstance
+                      Id="3617d649-4408-42c7-99d4-cbbf1584e3d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e506bbe8-f84e-4bca-9349-0fceefd366a0"
+                  name="goal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2f965a81-3459-4574-86f5-6f85231ef610"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dfindh OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)]) ParameterIdentifier%3Dgoal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9f6c9909-379e-4bd2-801b-49e54f3cd0f8"
+            name="findPos"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d0fa2921-1430-4cb1-b775-e3713ece49f4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPos OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3736c8df-7801-48e9-8079-8ee301f81b81"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f218fec6-3708-4a93-ac74-bf8d1f6ed770">
+                    <propertyInstance
+                      Id="4d6f2afa-35a1-48fd-97ec-2bc433a2138a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf0b759-852b-4004-99ce-8fbfefbf4650">
+                    <propertyInstance
+                      Id="699c6a5f-04e8-4e7c-8b15-670c1ae7ac8a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57e61205-abef-42b7-b81b-90bcc78002cf">
+                    <propertyInstance
+                      Id="739b72c1-e76a-46af-bbb1-2b05273bfb3e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d94772fb-8b56-4d38-93ba-66cbb832e811">
+                    <propertyInstance
+                      Id="32fa2951-4008-48fa-bbfd-7e0d14728754"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b9a0632-38c2-4c35-8cad-aa76ddd6f7c5">
+                    <propertyInstance
+                      Id="f941ad04-6250-47d0-b310-3dd834c4f99a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db2443f4-685c-42a3-902d-3d23cd4cd38d">
+                    <propertyInstance
+                      Id="d8e9b09b-b839-45b2-b24f-dbd33b43067b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="082689e9-783a-4748-9404-1366c8435d27"
+                  name="n"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="86249a1e-7075-43b8-9944-d117759e949b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPos OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)]) ParameterIdentifier%3Dn"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab58caf4-99a6-4794-a30b-b317a096d402"
+                  name="x"
+                  direction="Out">
+                  <referencesInternal>
+                    <reference
+                      Id="8d2bf1bf-b36d-45a3-970d-242af7c84b77"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPos OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="083991f6-9077-4bb0-8b31-2e4e38f4d27d"
+                  name="y"
+                  direction="Out">
+                  <referencesInternal>
+                    <reference
+                      Id="9990b6c7-248e-46b9-97c6-2e818df84bee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DfindPos OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DNode)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32 ParamKind%3DRef)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f70a1e34-e43d-4cc1-9c5e-fb87a7d10991"
+            name="manhatten"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1f37467c-2973-4aa8-9231-8c9c91ebb953"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dmanhatten OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f7eab4b-c622-4855-bf3e-77405a1b667d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e5276b5-9a12-434e-8899-90889fd8e288">
+                    <propertyInstance
+                      Id="0e3e59f9-6a88-4c88-959b-5f6a69b5dcc3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c972248e-b17e-490b-9453-09f96537b050">
+                    <propertyInstance
+                      Id="0bac9b30-1563-4bad-8d49-298b4e56de85"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2909eaa8-555d-41a1-af97-cc3bc5af754b">
+                    <propertyInstance
+                      Id="4b5a474f-739c-4af1-ab00-10576e29b39e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a66994d-b352-437e-b473-fb56cddb7b05">
+                    <propertyInstance
+                      Id="e6cae769-656a-48c7-ab49-b7f270b5ade2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b78295fd-28e4-428b-b8d4-e41de5b940e7">
+                    <propertyInstance
+                      Id="070c8af7-2fd1-4594-9dcd-39830e668b28"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0950e15-d17c-473b-8c8e-4bc0df18b6f5">
+                    <propertyInstance
+                      Id="2bbc65b2-cee7-409b-8bee-842d694c429a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ade2ac4c-3a1e-4506-ad63-a2e2c4f3f91e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="38e1d023-7d6a-4e6a-90b1-808db4f1aa0f"
+                  name="x1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e4025395-f09b-413c-b65a-1d1076d7d427"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dmanhatten OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1be6083b-4b97-4e8f-9d4e-0838612ef509"
+                  name="y1"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="75c07bd7-1966-4c4e-81c4-ae966d4789cd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dmanhatten OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy1"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d4b75b1-a7ca-4d39-85f3-f78f2372d084"
+                  name="x2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1d05426c-9e90-4518-8c0d-e6d015926abb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dmanhatten OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d9cbb5f-c80b-4c5c-a303-78238f7d2f88"
+                  name="y2"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="34d651bd-29df-4ed5-8afa-bb4d4f7a0596"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3Dmanhatten OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy2"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="394fa4b9-1662-4e87-b991-8f4a757d767c"
+            name="getNodeAt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="80aa222b-0e3c-4c60-a466-664ceafaa3b5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DgetNodeAt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf26f712-eefb-4fda-92e2-1a96b6f8fbf6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84fb2647-0835-42bc-954e-c75dcde32a79">
+                    <propertyInstance
+                      Id="88ee2e29-480c-4f25-818a-db8dc9e71b07"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="078068ec-acd0-4150-920a-e6914f0e2984">
+                    <propertyInstance
+                      Id="1fea0bb2-ed06-4924-ba01-6898186d5a9e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c9bd86c-3791-4468-bbb6-2e72d6cf14cd">
+                    <propertyInstance
+                      Id="290c0f73-e993-462c-9f82-271b27f77d88"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1db4bbc6-48bc-4abf-ad68-727e42cab8e6">
+                    <propertyInstance
+                      Id="39bec4f4-8adc-448b-bb0e-5ce8398528db"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a38972-6d0f-4d99-924a-fd823e48aacf">
+                    <propertyInstance
+                      Id="989b6362-5a30-4493-aee5-210552e7a0fd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d00abd6-7919-4e6a-862f-4903e32b6025">
+                    <propertyInstance
+                      Id="60f88fab-f729-4a34-83c0-dd9bd89323cf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb2cf8b5-27ee-41fa-8136-24c44a4de4d8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="07098f8d-5a2c-4a6a-9bfc-2d960e40c905"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0aa83d65-fa28-4b52-9af8-a385e27afafd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DgetNodeAt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c3704d7-dd1b-4d67-9b3f-112780a28be6"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="db5c6184-5b36-4d4f-8f40-fdc70e3a6d67"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DgetNodeAt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="99b426dd-fcab-4a20-b6ee-c3de603a7180"
+            name="getNodeAt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="035c9b71-64b9-423d-be54-ff19416b8eea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DgetNodeAt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DVector2)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="adc81ca2-8685-4efb-9441-5e9d0b5165cb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f7201ae-6ef8-409b-b5d0-eabbc0b5af34">
+                    <propertyInstance
+                      Id="bee843f4-79da-467b-8522-51f74e65c410"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="500b829f-9a8b-4c25-b899-bf11917cbb93">
+                    <propertyInstance
+                      Id="b929815a-4da6-4916-aa4b-9c77bbb759db"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b09eafb-0812-41e9-a3a6-75d3b50026e0">
+                    <propertyInstance
+                      Id="d993b46a-a0fa-4a95-8ba8-0921582c2f6c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70a32a2b-c472-4d66-8edf-d4488d07a500">
+                    <propertyInstance
+                      Id="53d02fab-050a-4ad7-b7a2-e1b7e498a214"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ca6b57c-8684-4c62-bf0d-f18d729a3702">
+                    <propertyInstance
+                      Id="dff12d71-0b96-4e1a-8d0a-bd71cf03515f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5492b484-0b39-4f91-a287-21a2fc005de9">
+                    <propertyInstance
+                      Id="80edc914-4c79-4ba0-ba83-85a5f8066bca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c98ad182-b8bc-4d5d-bd70-8f0cdc980c12"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4e0bbea4-259a-47be-8b23-ba1126abfafa"
+                      LastKnownName="Node"
+                      LastKnownLocation="Package1_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="631def93-9aba-473c-b574-a9bce59757ba"
+                  name="pos"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ba9d0cba-76d9-4c55-b91e-f3ea4728d13e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3D(Name%3DgetNodeAt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DVector2)]) ParameterIdentifier%3Dpos"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="140bd1b4-4388-411b-815a-8dba3b21ddb7"
+                      LastKnownName="Vector2"
+                      LastKnownLocation="Package4_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f7570a30-ddb3-4fde-af04-a8320d42d5d1"
+            name="Reset"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ab097e16-fb58-4453-8964-2dbd866f15ac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DMap Member%3DReset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e09047ac-dc22-4582-8446-4ef1645df2f1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b6cb041-8a99-4138-b4d3-139f75f02c42">
+                    <propertyInstance
+                      Id="0da0089b-8c7d-47e6-8eef-ea84214103bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7992647e-6c22-4e9a-844d-e897715b451e">
+                    <propertyInstance
+                      Id="d1152af8-ab66-4c17-bc29-d1468aee9141"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3257900-8782-4a46-b1ae-09dced7d51a5">
+                    <propertyInstance
+                      Id="0333f300-5510-4871-b3f8-c33ad0d5a2f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="261abea7-ae9d-41f8-ba10-18a12ce89af8">
+                    <propertyInstance
+                      Id="bfab8bb0-0c11-4f33-8794-e2a9e2014e6f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50e2a1dc-739b-45f4-bb77-8d58d5c7ebf4">
+                    <propertyInstance
+                      Id="9942d236-d4ec-420a-ae8a-679616325c7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4992fcca-3100-42d7-b6cc-a2b52e59d9f0">
+                    <propertyInstance
+                      Id="4c2ed559-9e14-442e-9d8a-e3ed21c06be5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="39ddb924-bf50-472a-9e46-14bf7c6a68bd"
+        name="Path"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="20c761b4-ba52-4406-aff9-db19ebb2231f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="28aec640-a59f-43d7-bcc9-7622022c15dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6eb03e6d-0691-4311-8481-8641c904ea0d">
+                <propertyInstance
+                  Id="1504ae5a-4334-4933-b9e2-c4fb2f32769c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11a3cc67-85d0-496d-8d8d-04ade2cc7342">
+                <propertyInstance
+                  Id="c93f5efd-6275-4fba-889a-1f0cdef0bd3a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="044ec875-31f8-42f1-92ce-88771182841d">
+                <propertyInstance
+                  Id="aaa4f5f6-0cc0-415f-925a-ca70fc9530fb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25374c4c-c87d-48d8-ab18-e90ca9d52fba">
+                <propertyInstance
+                  Id="3dd8d0a8-e210-452a-8955-be7ce5140be5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1134326c-4080-4a5c-a2ac-14f445e96f38">
+                <propertyInstance
+                  Id="7346df08-bb12-4132-9d87-51e23d9d5b79"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="53b106d6-6b83-4d8e-a484-5b5c97b74b55"
+            isDerived="false"
+            sourceEndRoleName="Path"
+            targetEndRoleName="Target"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="140bd1b4-4388-411b-815a-8dba3b21ddb7"
+              LastKnownName="Vector2"
+              LastKnownLocation="Package4_1250.uml" />
+            <description>Property Target references type Vector2.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4183af76-d82c-48f5-9396-f0c370a71bea"
+                  name="Path"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="243e126f-a1a7-4586-8995-2cab3935c094"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="87ea424f-d9fc-4a31-8a90-e59b409737ba"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6d2eaeb8-504a-4383-b798-47c0d6cff3fd"
+                  name="Target"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f343ec97-33af-4676-a79f-a3562ecd8e50"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d04704ee-2737-47aa-aa5a-12d7de5528cf"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="8c4c6d2e-cacd-4f25-bd9b-d87544b52e13"
+            name="Target"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="84a45e2b-9a85-4ac8-b180-d80a35faa605"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3DTarget"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c24c302-e30a-41e5-9b65-4e33e206e1b2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="447b9b07-70b2-4724-bdc8-6df00002ef11">
+                    <propertyInstance
+                      Id="145d8ec0-7511-4979-bd75-c3ff7195d986"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd5fadb1-5d65-4529-b47e-8d24ed1b9d3d">
+                    <propertyInstance
+                      Id="134b220c-cf84-4bc6-ae77-5915ab9f109b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59b8f63d-1708-48c1-9253-99cffc8e2501">
+                    <propertyInstance
+                      Id="7cae61ab-a34e-4a9f-a720-0af98c2ee74c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cdb00c7-c0b6-4103-8d23-db1872a785f7">
+                    <propertyInstance
+                      Id="befdb10c-f03f-491b-a2d7-d8514fb783ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d325f64-cb06-4332-8dbf-c28b63969da2">
+                    <propertyInstance
+                      Id="11d364fe-b57a-4da7-8a18-0073b4d61136"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a5c01fe-ce1a-40fc-8a27-d3dbf1b5e081">
+                    <propertyInstance
+                      Id="631580d1-36d7-46bc-9f0a-5a2da86fe106"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7508f5ba-9197-4a71-9996-953a72d50da5">
+                    <propertyInstance
+                      Id="d4669246-e45c-4ee6-966d-8d48cf58cae1"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="140bd1b4-4388-411b-815a-8dba3b21ddb7"
+                LastKnownName="Vector2"
+                LastKnownLocation="Package4_1250.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4c940a7e-dee5-4379-8503-1f72af850f55"
+            name="que"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="22119381-71c6-44fb-b338-800a9bc5781f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3Dque"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d2446a9d-e4ef-4128-a093-f952e2226a24"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d221e26e-8bf0-43a3-8890-780ab2e42c56">
+                    <propertyInstance
+                      Id="ee4a423a-2c69-456f-a853-3cd68d3ad771"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da98d36f-cc9d-4406-9a83-0ee2a9b28a22">
+                    <propertyInstance
+                      Id="1b712974-3680-4fff-aec5-8da10af35162"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a924cf55-0ceb-4724-85f1-b14495f3c3d0">
+                    <propertyInstance
+                      Id="9e43533f-6f84-41cc-9736-6382e3541a6f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4f24168-36a9-47bb-b875-fb6613058b8d">
+                    <propertyInstance
+                      Id="6bd4d5fc-5b00-4e3c-b3f0-84560c5ab829"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbe224d7-1d26-442b-92ee-055731660272">
+                    <propertyInstance
+                      Id="7f63f429-b2b2-47f4-9459-112b4bf03c0f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="46340f60-a9c0-4501-8b24-7765a734e3a5"
+                LastKnownName="Queue&lt;Vector2‎&gt;"
+                LastKnownLocation="Package7_1250.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2eac9d24-bb59-4a44-8287-85745916ad54"
+            name="target"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f74fd1cc-0ca2-461e-a743-0c2d2954c7c9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3Dtarget"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2bffb581-5cfa-404a-9fa8-fbf588835566"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef916100-19dc-49f2-9ea3-d48f9326e859">
+                    <propertyInstance
+                      Id="9aadbea4-ba22-4094-a8c1-60c72227a5bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0201e7-7075-4dfb-a54d-4db8d08d2fd4">
+                    <propertyInstance
+                      Id="0fbcd5cd-b6d9-4503-98e7-45e8731fe3d3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc44b2f8-8e85-4321-98b7-ecaa5acd33b0">
+                    <propertyInstance
+                      Id="8e6a218c-8a1e-4fd4-a450-88287c6ad4ee"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12e449d8-ed7c-485f-be1d-ae81e6de3391">
+                    <propertyInstance
+                      Id="8b9cf467-6c73-423c-8111-ef3624ee34e4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22fcf604-de5f-4485-99fb-6c4cf3cd645a">
+                    <propertyInstance
+                      Id="7dc506dc-c520-4ac7-b30a-74e0b10b698f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="140bd1b4-4388-411b-815a-8dba3b21ddb7"
+                LastKnownName="Vector2"
+                LastKnownLocation="Package4_1250.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6f53e569-947f-4dfc-ab3c-b0a368d1ac28"
+            name="Path"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0a5e7636-620a-4319-adcf-2b5c9614dea4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DQueue GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DVector2)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90761a0f-a9b7-43b0-a7fa-85e4d2408aec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b458b04-496d-40f2-8ca1-0a03a12f44dc">
+                    <propertyInstance
+                      Id="c924f1cd-3cf9-4f6b-b96e-8cd1c54af4ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cedb30f2-d1b4-48e1-8cec-cbbabc80d41f">
+                    <propertyInstance
+                      Id="bbd9a763-7e3b-42d2-b468-7d7c7662d636"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07c7980b-68c3-4ad3-a18e-5db6756495a4">
+                    <propertyInstance
+                      Id="60ded3b0-794d-4ff3-acc4-2ac0bf4de976"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0370f35-49bd-4c84-9dd7-a10bce0414e4">
+                    <propertyInstance
+                      Id="3aa73e79-4154-4bd0-9b4f-8acb045b694a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66dc667a-3508-4928-8410-55cf308bcef1">
+                    <propertyInstance
+                      Id="13859283-4a71-4282-9400-932a02e69603"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c713b792-f496-46dc-926f-6ecfe735b5e1">
+                    <propertyInstance
+                      Id="04d16614-c92f-407f-b40e-0b31cd360c1a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="006a0cc7-9223-41bd-a84c-ceb22bc8c793"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3c8baeb9-0c56-4fe5-ac46-7c83e4ae039f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DQueue GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DVector2)]))]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="46340f60-a9c0-4501-8b24-7765a734e3a5"
+                      LastKnownName="Queue&lt;Vector2‎&gt;"
+                      LastKnownLocation="Package7_1250.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="341fe739-f1d9-4e94-926c-ae2e157bf22a"
+            name="Next"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2f77c1b3-7ffe-4f15-a067-f0ab097d0c5c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fkristian%2FDocuments%2F2SemesterPacMan%2FPacman%2FPacman%2Fbin%2FWindows%2FRelease%2FPacman.exe Namespace%3DPacman.path Type%3DPath Member%3DNext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92876232-a34c-4a4f-b76d-34d333d07e45"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="480e3c19-3001-4584-86ff-ede220375c42">
+                    <propertyInstance
+                      Id="87fc6a5b-74ae-489a-ae06-ec5019fcef48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bd0c507-ccd1-4dd4-b5ff-68340187f00d">
+                    <propertyInstance
+                      Id="8f207d35-f04f-47a1-a419-6d98adf57d36"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94e4bcf2-99a6-46d0-9bf2-7d4b7799ccc7">
+                    <propertyInstance
+                      Id="1bf3200d-dd19-4783-ae20-aacdd7521d7b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f3ca89f-5ab7-49d3-8e81-ba1414adf174">
+                    <propertyInstance
+                      Id="ea8bc100-65f1-4946-af5c-80ae394c6cbb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16577463-6853-4020-9a16-250cf82a23e6">
+                    <propertyInstance
+                      Id="a13c6f15-7d58-450d-b825-5f6edf01794d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41d77bad-3c83-4f77-8005-b68a9e54ebaa">
+                    <propertyInstance
+                      Id="cb40aa70-15b8-4047-938a-136d54332384"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15d5ff7f-79b8-4427-b1a3-19d53004ed87"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

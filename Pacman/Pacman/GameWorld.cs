@@ -455,6 +455,20 @@ namespace Pacman
 
             this.Window.Title = "You're score is: " + HighScore.ToString();
 
+            //HUD setup
+            #region HUD
+            //SpriteFont spriteFont = Content.Load<SpriteFont>("arial");
+            //Rectangle rectangle = new Rectangle();
+            //rectangle.Width = 700;
+            //rectangle.Height = 50;
+            //rectangle.Y = 670;
+
+            //Texture2D texture = new Texture2D(graphics.GraphicsDevice, 1, 1);
+            //texture.SetData(new Color[] { Color.Gray });
+            //Color color = Color.White;
+
+            //spriteBatch.Draw(texture, rectangle, color);
+            #endregion
             foreach (Books consu in books)
             {
                 consu.Draw(spriteBatch);
