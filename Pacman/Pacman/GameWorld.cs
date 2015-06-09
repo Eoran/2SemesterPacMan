@@ -71,9 +71,249 @@ namespace Pacman
 
             //pick ups
             books.Add(new Books(new Vector2(292, 260)));
+            books.Add(new Books(new Vector2(324, 260)));
+            books.Add(new Books(new Vector2(356, 260)));
+            books.Add(new Books(new Vector2(388, 260)));
+            books.Add(new Books(new Vector2(420, 260)));
+            books.Add(new Books(new Vector2(452, 260)));
+            books.Add(new Books(new Vector2(452, 228)));
+            books.Add(new Books(new Vector2(452, 196)));
+            books.Add(new Books(new Vector2(452, 164)));
+            books.Add(new Books(new Vector2(452, 132)));
+            books.Add(new Books(new Vector2(420, 132)));
+            books.Add(new Books(new Vector2(420, 100)));
+            books.Add(new Books(new Vector2(420, 68)));
+            books.Add(new Books(new Vector2(420, 36)));
+            books.Add(new Books(new Vector2(452, 36)));
+            books.Add(new Books(new Vector2(484, 36)));
+            books.Add(new Books(new Vector2(484, 68)));
+            books.Add(new Books(new Vector2(516, 68)));
+            books.Add(new Books(new Vector2(548, 68)));
+            books.Add(new Books(new Vector2(580, 68)));
+            books.Add(new Books(new Vector2(580, 36)));
+            books.Add(new Books(new Vector2(612, 36)));
+            books.Add(new Books(new Vector2(644, 68)));
+            books.Add(new Books(new Vector2(644, 100)));
+            books.Add(new Books(new Vector2(644, 132)));
+            books.Add(new Books(new Vector2(612, 132)));
+            books.Add(new Books(new Vector2(580, 132)));
+            books.Add(new Books(new Vector2(580, 164)));
+            books.Add(new Books(new Vector2(580, 196)));
+            books.Add(new Books(new Vector2(612, 196)));
+            books.Add(new Books(new Vector2(644, 196)));
+            books.Add(new Books(new Vector2(644, 228)));
+            books.Add(new Books(new Vector2(644, 260)));
+            books.Add(new Books(new Vector2(612, 260)));
+            books.Add(new Books(new Vector2(580, 260)));
+            books.Add(new Books(new Vector2(580, 292)));
+            books.Add(new Books(new Vector2(580, 324)));
+            books.Add(new Books(new Vector2(612, 324)));
+            books.Add(new Books(new Vector2(644, 324)));
+            books.Add(new Books(new Vector2(672, 324)));
+            books.Add(new Books(new Vector2(548, 292)));
+            books.Add(new Books(new Vector2(516, 292)));
+           
+            books.Add(new Books(new Vector2(516, 260)));
+            books.Add(new Books(new Vector2(516, 228)));
+            books.Add(new Books(new Vector2(516, 196)));
+            books.Add(new Books(new Vector2(516, 164)));
+            books.Add(new Books(new Vector2(516, 132)));
+            books.Add(new Books(new Vector2(516, 100)));
+            books.Add(new Books(new Vector2(516, 324)));
+            books.Add(new Books(new Vector2(484, 324)));
+            books.Add(new Books(new Vector2(452, 324)));
+            books.Add(new Books(new Vector2(420, 324)));
+            books.Add(new Books(new Vector2(420, 356)));
+            books.Add(new Books(new Vector2(420, 292)));
+            books.Add(new Books(new Vector2(420, 388)));
+            books.Add(new Books(new Vector2(452, 388)));
+            books.Add(new Books(new Vector2(484, 388)));
+            books.Add(new Books(new Vector2(516, 388)));
 
+            //branch 1
+            books.Add(new Books(new Vector2(516, 420)));
+            books.Add(new Books(new Vector2(516, 452)));
+            books.Add(new Books(new Vector2(580, 452)));
+            books.Add(new Books(new Vector2(548, 452)));
+            books.Add(new Books(new Vector2(580, 484)));
+            books.Add(new Books(new Vector2(580, 516)));
+            books.Add(new Books(new Vector2(580, 548)));
+            books.Add(new Books(new Vector2(612, 548)));
+
+            //branch 2
+            books.Add(new Books(new Vector2(548, 388)));
+            books.Add(new Books(new Vector2(580, 388)));
+            books.Add(new Books(new Vector2(612, 388)));
+            books.Add(new Books(new Vector2(644, 388)));
+            books.Add(new Books(new Vector2(644, 420)));
+            books.Add(new Books(new Vector2(644, 452)));
+            books.Add(new Books(new Vector2(644, 484)));
+            books.Add(new Books(new Vector2(644, 516)));
+            books.Add(new Books(new Vector2(644, 548)));
+            books.Add(new Books(new Vector2(644, 580)));
+            
+            books.Add(new Books(new Vector2(612, 612)));
+            books.Add(new Books(new Vector2(580, 612)));
+            books.Add(new Books(new Vector2(548, 612)));
+            books.Add(new Books(new Vector2(516, 612)));
+
+            //branch 1
+            books.Add(new Books(new Vector2(516, 580)));
+            books.Add(new Books(new Vector2(516, 548)));
+            books.Add(new Books(new Vector2(516, 516)));
+            books.Add(new Books(new Vector2(484, 516)));
+            books.Add(new Books(new Vector2(452, 516)));
+            books.Add(new Books(new Vector2(420, 516)));
+            books.Add(new Books(new Vector2(388, 516)));
+            books.Add(new Books(new Vector2(356, 516)));
+            books.Add(new Books(new Vector2(356, 484)));
+            books.Add(new Books(new Vector2(356, 452)));
+            books.Add(new Books(new Vector2(388, 452)));
+            books.Add(new Books(new Vector2(420, 452)));
+            books.Add(new Books(new Vector2(452, 452)));
+            books.Add(new Books(new Vector2(452, 420)));
+
+            //branch 2
+            books.Add(new Books(new Vector2(484, 612)));
+            books.Add(new Books(new Vector2(452, 612)));
+            books.Add(new Books(new Vector2(452, 580)));
+            books.Add(new Books(new Vector2(420, 580)));
+            books.Add(new Books(new Vector2(388, 580)));
+            books.Add(new Books(new Vector2(388, 612)));
+            books.Add(new Books(new Vector2(356, 612)));
+            books.Add(new Books(new Vector2(324, 612)));
+            books.Add(new Books(new Vector2(324, 580)));
+            books.Add(new Books(new Vector2(292, 580)));
+            books.Add(new Books(new Vector2(260, 580)));
+            books.Add(new Books(new Vector2(260, 612)));
+            books.Add(new Books(new Vector2(228, 612)));
+            books.Add(new Books(new Vector2(196, 612)));
+            books.Add(new Books(new Vector2(196, 580)));
+            books.Add(new Books(new Vector2(196, 548)));
+            books.Add(new Books(new Vector2(196, 516)));
+            books.Add(new Books(new Vector2(228, 516)));
+            books.Add(new Books(new Vector2(260, 516)));
+            books.Add(new Books(new Vector2(292, 516)));
+            books.Add(new Books(new Vector2(292, 484)));
+            books.Add(new Books(new Vector2(292, 452)));
+            //branch 1
+            books.Add(new Books(new Vector2(292, 420)));
+            books.Add(new Books(new Vector2(292, 388)));
+            books.Add(new Books(new Vector2(324, 388)));
+            books.Add(new Books(new Vector2(356, 388)));
+            books.Add(new Books(new Vector2(388, 388)));
+            books.Add(new Books(new Vector2(260, 388)));
+            books.Add(new Books(new Vector2(228, 388)));
+            books.Add(new Books(new Vector2(196, 388)));
+            books.Add(new Books(new Vector2(164, 388)));
+            books.Add(new Books(new Vector2(132, 388)));
+            books.Add(new Books(new Vector2(132, 356)));
+            //branch 2
+            books.Add(new Books(new Vector2(260, 452)));
+            books.Add(new Books(new Vector2(228, 452)));
+            books.Add(new Books(new Vector2(196, 452)));
+            books.Add(new Books(new Vector2(164, 452)));
+            books.Add(new Books(new Vector2(132, 452)));
+            books.Add(new Books(new Vector2(132, 484)));
+            books.Add(new Books(new Vector2(132, 516)));
+            books.Add(new Books(new Vector2(132, 548)));
+            books.Add(new Books(new Vector2(132, 580)));
+            books.Add(new Books(new Vector2(132, 612)));
+            books.Add(new Books(new Vector2(100, 612)));
+            books.Add(new Books(new Vector2(68, 612)));
+           
+            books.Add(new Books(new Vector2(68, 580)));
+            books.Add(new Books(new Vector2(68, 548)));
+            books.Add(new Books(new Vector2(36, 548)));
+            books.Add(new Books(new Vector2(36, 516)));
+            books.Add(new Books(new Vector2(36, 484)));
+            books.Add(new Books(new Vector2(68, 484)));
+            books.Add(new Books(new Vector2(68, 452)));
+            books.Add(new Books(new Vector2(68, 420)));
+            books.Add(new Books(new Vector2(36, 420)));
+            books.Add(new Books(new Vector2(36, 388)));
+            books.Add(new Books(new Vector2(36, 356)));
+            books.Add(new Books(new Vector2(36, 324)));
+            books.Add(new Books(new Vector2(4, 324)));
+            books.Add(new Books(new Vector2(68, 324)));
+            books.Add(new Books(new Vector2(100, 324)));
+            books.Add(new Books(new Vector2(132, 324)));
+            books.Add(new Books(new Vector2(164, 324)));
+            books.Add(new Books(new Vector2(196, 324)));
+            books.Add(new Books(new Vector2(228, 324)));
+            books.Add(new Books(new Vector2(260, 324)));
+            books.Add(new Books(new Vector2(260, 356)));
+            books.Add(new Books(new Vector2(260, 292)));
+            books.Add(new Books(new Vector2(260, 260)));
+            books.Add(new Books(new Vector2(228, 260)));
+            books.Add(new Books(new Vector2(196, 260)));
+            books.Add(new Books(new Vector2(196, 228)));
+            books.Add(new Books(new Vector2(164, 260)));
+            books.Add(new Books(new Vector2(164, 292)));
+            books.Add(new Books(new Vector2(132, 260)));
+            books.Add(new Books(new Vector2(100, 260)));
+            books.Add(new Books(new Vector2(68, 260)));
+            books.Add(new Books(new Vector2(36, 260)));
+            books.Add(new Books(new Vector2(36, 228)));
+            books.Add(new Books(new Vector2(36, 196)));
+            books.Add(new Books(new Vector2(36, 164)));
+            books.Add(new Books(new Vector2(36, 132)));
+            books.Add(new Books(new Vector2(36, 100)));
+            // branch 1
+            books.Add(new Books(new Vector2(36, 68)));
+            books.Add(new Books(new Vector2(68, 36)));
+            books.Add(new Books(new Vector2(100, 36)));
+            books.Add(new Books(new Vector2(132, 36)));
+            books.Add(new Books(new Vector2(164, 36)));
+            books.Add(new Books(new Vector2(196, 36)));
+            books.Add(new Books(new Vector2(228, 36)));
+            books.Add(new Books(new Vector2(260, 36)));
+            books.Add(new Books(new Vector2(292, 36)));
+            books.Add(new Books(new Vector2(292, 68 )));
+            books.Add(new Books(new Vector2(292, 100)));
+            books.Add(new Books(new Vector2(292, 132)));
+            books.Add(new Books(new Vector2(292, 164)));
+            books.Add(new Books(new Vector2(292, 196)));
+            books.Add(new Books(new Vector2(324, 196)));
+            books.Add(new Books(new Vector2(356, 196)));
+            books.Add(new Books(new Vector2(388, 196)));
+            books.Add(new Books(new Vector2(420, 196)));
+            books.Add(new Books(new Vector2(356, 228)));
+            books.Add(new Books(new Vector2(356, 164)));
+            books.Add(new Books(new Vector2(356, 132)));
+            books.Add(new Books(new Vector2(356, 100)));
+            books.Add(new Books(new Vector2(356, 68)));
+            books.Add(new Books(new Vector2(356, 36)));
+            books.Add(new Books(new Vector2(388, 36)));
+            // branch 2
+            books.Add(new Books(new Vector2(68, 100)));
+            books.Add(new Books(new Vector2(100, 100)));
+            //branch 3
+            books.Add(new Books(new Vector2(132, 100)));
+            books.Add(new Books(new Vector2(164, 100)));
+            books.Add(new Books(new Vector2(164, 132)));
+            books.Add(new Books(new Vector2(196, 132)));
+            books.Add(new Books(new Vector2(228, 132)));
+            books.Add(new Books(new Vector2(228, 100)));
+            books.Add(new Books(new Vector2(260, 100)));
+            //branch 4
+            books.Add(new Books(new Vector2(100, 132)));
+            books.Add(new Books(new Vector2(100, 164)));
+            books.Add(new Books(new Vector2(100, 196)));
+            books.Add(new Books(new Vector2(132, 196)));
+            books.Add(new Books(new Vector2(164, 196)));
+            books.Add(new Books(new Vector2(196, 196)));
+            books.Add(new Books(new Vector2(196, 164)));
+            books.Add(new Books(new Vector2(228, 196)));
+            books.Add(new Books(new Vector2(260, 196))); 
+
+            
+          
             //power ups
             cards.Add(new Cards(new Vector2(36, 36)));
+            cards.Add(new Cards(new Vector2(644, 612)));
+            cards.Add(new Cards(new Vector2(36, 612)));
+            cards.Add(new Cards(new Vector2(644, 36)));
 
             //Tiles making up the level
             #region tiles

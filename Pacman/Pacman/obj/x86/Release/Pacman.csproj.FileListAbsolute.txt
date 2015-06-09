@@ -25,12 +25,7 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Sh
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.exe
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.pdb
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\CollisionTexture.png
-C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\part1_tileset.png
-C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\playerSheet.png
-C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\rsz_book.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\card.png
-C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\sponge.png
-C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\walk.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Pacman.exe
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Pacman.pdb
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\MonoGame.Framework.dll
@@ -66,3 +61,12 @@ C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Co
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DonePlayer.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Books.cs
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\book.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DoneLibrarian1.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DoneLibrarian2.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DoneLibrarian3.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DoneLibrarian4.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\DonePlayer.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\book.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\spr_bookcase_0.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\teleportblok.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Books.cs
