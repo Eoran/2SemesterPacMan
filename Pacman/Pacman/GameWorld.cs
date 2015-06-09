@@ -68,10 +68,14 @@ namespace Pacman
             enemyList.Add(new Enemy(new Vector2(352, 320), 1));
             enemyList.Add(new Enemy(new Vector2(320, 298), 2));
             enemyList.Add(new Enemy(new Vector2(352, 298), 3));
-            books.Add(new Books(new Vector2(200, 200), 1));
-            books.Add(new Books(new Vector2(250, 200), 1));
-            books.Add(new Books(new Vector2(200, 300), 1));
 
+            //pick ups
+            books.Add(new Books(new Vector2(292, 260)));
+
+            //power ups
+            cards.Add(new Cards(new Vector2(36, 36)));
+
+            //Tiles making up the level
             #region tiles
             tiles.Add(new tiles(new Vector2(0, 0), true));
             tiles.Add(new tiles(new Vector2(0, 32), true));
@@ -330,10 +334,7 @@ namespace Pacman
             #endregion
 
 
-            //Tiles making up the level
-            cards.Add(new Cards(new Vector2(300, 200), 1));
-            cards.Add(new Cards(new Vector2(340, 200), 1));
-
+            
             base.Initialize();
             graphics.PreferredBackBufferWidth = 700;
             graphics.PreferredBackBufferHeight = 670;

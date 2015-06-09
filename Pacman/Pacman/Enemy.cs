@@ -19,6 +19,7 @@ namespace Pacman
         private int deathcount;
         private Vector2 spawn;
         public int typeEne;
+
         public static void init()
         {
             map = new path.Map(22, 21);
@@ -535,6 +536,7 @@ namespace Pacman
         public Enemy(Vector2 pos, int type)
             : base(pos)
         {
+            speed = 150;
             if (type == 1)
             {
                 CreateAnimation("idle", 1, 0, 12, 28, 32, new Vector2(0, 0), 5);
@@ -543,7 +545,7 @@ namespace Pacman
             {
                 CreateAnimation("idle", 1, 0, 0, 28, 32, new Vector2(0, 0), 5);
             }
-            
+
             PlayAnimation("idle");
             spawn = pos;
             Position = pos;
@@ -554,13 +556,13 @@ namespace Pacman
                     deathcount = 100;
                     break;
                 case 1:
-                    deathcount = 400;
+                    deathcount = 500;
                     break;
                 case 2:
-                    deathcount = 700;
+                    deathcount = 800;
                     break;
                 case 3:
-                    deathcount = 1000;
+                    deathcount = 2000;
                     break;
             }
 
@@ -583,7 +585,7 @@ namespace Pacman
                     texture = content.Load<Texture2D>(@"DoneLibrarian4");
                     break;
             }
-            
+
 
             base.LoadContent(content);
         }
@@ -597,39 +599,46 @@ namespace Pacman
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (deathcount == 0)
             {
-
-
-                if (pathen != null)
+                if (Player.isPower)
                 {
-                    Vector2 dir = pathen.Target - position;
-                    float distance = dir.Length();
-                    float step = speed * deltaTime;
-
-                    if (distance < step)
-                    {
-                        position = pathen.Target;
-                        if (!pathen.Next())
-                        {
-                            pathen = null;
-                        }
-                    }
-                    else
-                    {
-                        dir.Normalize();
-                        position += dir * step;
-                    }
-                }
-                else
-                {
-
-
                     path.Node start = map.getNodeAt(position);
-                    path.Node goal = map.getNodeAt(GameWorld.Player.position);
+                    path.Node goal = map.getNodeAt(12, 19);
 
                     pathen = map.findPath(start, goal);
 
-
                 }
+                else
+                {
+                    if (pathen != null)
+                    {
+                        Vector2 dir = pathen.Target - position;
+                        float distance = dir.Length();
+                        float step = speed * deltaTime;
+
+                        if (distance < step)
+                        {
+                            position = pathen.Target;
+                            if (!pathen.Next())
+                            {
+                                pathen = null;
+                            }
+                        }
+                        else
+                        {
+                            dir.Normalize();
+                            position += dir * step;
+                        }
+                    }
+
+                    else
+                    {
+                        path.Node start = map.getNodeAt(position);
+                        path.Node goal = map.getNodeAt(GameWorld.Player.position);
+
+                        pathen = map.findPath(start, goal);
+                    }
+                }
+
             }
             else
             {
@@ -650,7 +659,21 @@ namespace Pacman
 
                     pathen = null;
 
-                    deathcount = 100;
+                    switch (typeEne)
+                    {
+                        case 0:
+                            deathcount = 100;
+                            break;
+                        case 1:
+                            deathcount = 500;
+                            break;
+                        case 2:
+                            deathcount = 800;
+                            break;
+                        case 3:
+                            deathcount = 2000;
+                            break;
+                    }
                 }
 
             }

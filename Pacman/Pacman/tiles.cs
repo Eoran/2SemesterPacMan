@@ -10,16 +10,13 @@ namespace Pacman
 {
     public class tiles : SpriteObject
     {
-        public static Rectangle rectan;
         public bool spawnblok;
 
         public tiles(Vector2 pos, bool spawn)
             : base(pos)
         {
-            CreateAnimation("IdleUp", 1, 1, 0, 32, 32, Vector2.Zero, 1);
+            CreateAnimation("IdleUp", 1, 0, 0, 32, 32, Vector2.Zero, 1);
             PlayAnimation("IdleUp");
-
-            rectan = CollisionRect;
             spawnblok = spawn;
 
         }

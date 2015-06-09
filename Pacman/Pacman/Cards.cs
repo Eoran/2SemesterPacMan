@@ -15,10 +15,10 @@ namespace Pacman
         public static Rectangle rectan;
         
 
-        public Cards(Vector2 pos, int frames)
+        public Cards(Vector2 pos)
             : base(pos)
         {
-            CreateAnimation("IdleUp", 1, 1, 0, 32, 32, Vector2.Zero, 1);
+            CreateAnimation("IdleUp", 1, 1, 0, 24, 24, Vector2.Zero, 1);
             PlayAnimation("IdleUp");
 
             rectan = CollisionRect;

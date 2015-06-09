@@ -30,9 +30,6 @@ c:\users\kristian\documents\visual studio 2013\Projects\Pacman\Pacman\bin\Window
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.exe
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\CollisionTexture.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\playerSheet.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\sponge.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\walk.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Pacman.exe
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Pacman.pdb
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\MonoGame.Framework.dll
@@ -58,7 +55,6 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Shar
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_book.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\card.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part1_tileset.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\CollisionTexture.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\part1_tileset.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\playerSheet.png
@@ -124,7 +120,6 @@ C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX
 C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Brian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\spr_bookcase_0.png
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\Enemy1.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\teleportblok.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian1.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian2.png
@@ -132,3 +127,4 @@ C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Cont
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian4.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DonePlayer.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Books.cs
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_rsz_book.png
