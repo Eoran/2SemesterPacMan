@@ -68,7 +68,8 @@ namespace Pacman
             enemyList.Add(new Enemy(new Vector2(352, 320), 1));
             enemyList.Add(new Enemy(new Vector2(320, 298), 2));
             enemyList.Add(new Enemy(new Vector2(352, 298), 3));
-
+            //pickups
+            #region pick ups
             //pick ups
             books.Add(new Books(new Vector2(292, 260)));
             books.Add(new Books(new Vector2(324, 260)));
@@ -112,7 +113,7 @@ namespace Pacman
             books.Add(new Books(new Vector2(672, 324)));
             books.Add(new Books(new Vector2(548, 292)));
             books.Add(new Books(new Vector2(516, 292)));
-           
+
             books.Add(new Books(new Vector2(516, 260)));
             books.Add(new Books(new Vector2(516, 228)));
             books.Add(new Books(new Vector2(516, 196)));
@@ -151,7 +152,7 @@ namespace Pacman
             books.Add(new Books(new Vector2(644, 516)));
             books.Add(new Books(new Vector2(644, 548)));
             books.Add(new Books(new Vector2(644, 580)));
-            
+
             books.Add(new Books(new Vector2(612, 612)));
             books.Add(new Books(new Vector2(580, 612)));
             books.Add(new Books(new Vector2(548, 612)));
@@ -221,7 +222,7 @@ namespace Pacman
             books.Add(new Books(new Vector2(132, 612)));
             books.Add(new Books(new Vector2(100, 612)));
             books.Add(new Books(new Vector2(68, 612)));
-           
+
             books.Add(new Books(new Vector2(68, 580)));
             books.Add(new Books(new Vector2(68, 548)));
             books.Add(new Books(new Vector2(36, 548)));
@@ -269,7 +270,7 @@ namespace Pacman
             books.Add(new Books(new Vector2(228, 36)));
             books.Add(new Books(new Vector2(260, 36)));
             books.Add(new Books(new Vector2(292, 36)));
-            books.Add(new Books(new Vector2(292, 68 )));
+            books.Add(new Books(new Vector2(292, 68)));
             books.Add(new Books(new Vector2(292, 100)));
             books.Add(new Books(new Vector2(292, 132)));
             books.Add(new Books(new Vector2(292, 164)));
@@ -305,16 +306,16 @@ namespace Pacman
             books.Add(new Books(new Vector2(196, 196)));
             books.Add(new Books(new Vector2(196, 164)));
             books.Add(new Books(new Vector2(228, 196)));
-            books.Add(new Books(new Vector2(260, 196))); 
+            books.Add(new Books(new Vector2(260, 196)));
 
-            
-          
+
+
             //power ups
             cards.Add(new Cards(new Vector2(36, 36)));
             cards.Add(new Cards(new Vector2(644, 612)));
             cards.Add(new Cards(new Vector2(36, 612)));
             cards.Add(new Cards(new Vector2(644, 36)));
-
+            #endregion
             //Tiles making up the level
             #region tiles
             tiles.Add(new tiles(new Vector2(0, 0), true));
@@ -568,13 +569,24 @@ namespace Pacman
             tiles.Add(new tiles(new Vector2(544, 32), true));
 
             //spawn chucks
-            tiles.Add(new tiles(new Vector2(320, 288),false));
+            tiles.Add(new tiles(new Vector2(320, 288), false));
             tiles.Add(new tiles(new Vector2(352, 288), false));
-            
+            //bug fix blok
+            tiles.Add(new tiles(new Vector2(-32, 288),true));
+            tiles.Add(new tiles(new Vector2(-64, 288), true));
+            tiles.Add(new tiles(new Vector2(-64, 352), true));
+            tiles.Add(new tiles(new Vector2(-32, 352), true));
+
+            tiles.Add(new tiles(new Vector2(704, 288), true));
+            tiles.Add(new tiles(new Vector2(736, 288), true));
+            tiles.Add(new tiles(new Vector2(704, 352), true));
+            tiles.Add(new tiles(new Vector2(736, 352), true));
+
+
             #endregion
 
 
-            
+
             base.Initialize();
             graphics.PreferredBackBufferWidth = 700;
             graphics.PreferredBackBufferHeight = 670;

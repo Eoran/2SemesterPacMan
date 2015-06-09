@@ -53,7 +53,6 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Shar
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_book.png
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\card.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\CollisionTexture.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\card.png
@@ -122,7 +121,6 @@ C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Cont
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian4.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DonePlayer.png
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Books.cs
-C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\rsz_rsz_book.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian1.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian2.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\DoneLibrarian3.png
@@ -132,3 +130,4 @@ C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\spr_bookcase_0.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\teleportblok.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Books.cs
+C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\book.png
