@@ -15,6 +15,7 @@ namespace Pacman
         public static Rectangle rectan;
         public static bool isPower = false;
         private static int powerCount = 0;
+        private int lifes = 3;
 
         public static int PowerCount
         {
@@ -26,6 +27,11 @@ namespace Pacman
         {
             get { return Position; }
             set { Position = value; }
+        }
+
+        public int Lifes
+        {
+            get { return lifes; }
         }
 
         public enum Direction : byte
@@ -149,9 +155,24 @@ namespace Pacman
             {
                 if (CollisionRect.Intersects((ene.CollisionRect)))
                 {
+                    
                     if (isPower == false)
                     {
-                        position = new Vector2(32, 32);
+                        
+                        if (Lifes != 0)
+                        {
+                            lifes = Lifes - 1;
+                            position = new Vector2(300, 32);
+                            direction = (Direction)4;
+                            foreach (Enemy enemy in GameWorld.enemyList)
+                            {
+                                enemy.Reset();
+                            }
+                        }
+                        else
+                        {
+                            GameWorld.gameOver = true;
+                        }
                     }
                 }
             }

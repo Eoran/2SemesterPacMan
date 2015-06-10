@@ -12,13 +12,15 @@ namespace Pacman
     public class Enemy : SpriteObject
     {
 
-        private Vector2 Position;
+        private static Vector2 Position;
         public static Rectangle rectan;
         private path.Path pathen;
         private static path.Map map;
         private int deathcount;
         private Vector2 spawn;
         public int typeEne;
+
+     
 
         public static void init()
         {
@@ -565,7 +567,7 @@ namespace Pacman
                     deathcount = 1000;
                     break;
             }
-
+            
 
         }
         public override void LoadContent(ContentManager content)
@@ -669,12 +671,37 @@ namespace Pacman
                             break;
                     }
                 }
+                else
+                {
+                   
+                }
 
             }
 
 
 
             base.Update(gameTime);
+        }
+
+        public void Reset()
+        {
+            position = spawn;
+            pathen = null;
+            switch (typeEne)
+            {
+                case 0:
+                    deathcount = 100;
+                    break;
+                case 1:
+                    deathcount = 500;
+                    break;
+                case 2:
+                    deathcount = 800;
+                    break;
+                case 3:
+                    deathcount = 1000;
+                    break;
+            }
         }
     }
 }

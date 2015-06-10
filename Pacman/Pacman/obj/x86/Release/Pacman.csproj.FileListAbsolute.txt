@@ -34,3 +34,4 @@ C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Sh
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.exe
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.pdb
 C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\obj\x86\Release\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Release\Content\sprite.xnb

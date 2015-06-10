@@ -23,6 +23,7 @@ namespace Pacman
             get { return GameWorld.player; }
         }
 
+        private SpriteFont sf;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         public static List<tiles> tiles;
@@ -31,6 +32,14 @@ namespace Pacman
         public static List<Books> bookRem;
         public static List<Cards> cardRem;
         public static List<Enemy> enemyList;
+
+        bool gameStarted = false;
+        private bool howtoplay = false;
+        public static bool gameOver = false;
+       
+        Rectangle mainRec = new Rectangle();
+        Rectangle startGameRec = new Rectangle();
+        Rectangle howToPlayRec = new Rectangle();
 
         public static int HighScore;
 
@@ -572,7 +581,7 @@ namespace Pacman
             tiles.Add(new tiles(new Vector2(320, 288), false));
             tiles.Add(new tiles(new Vector2(352, 288), false));
             //bug fix blok
-            tiles.Add(new tiles(new Vector2(-32, 288),true));
+            tiles.Add(new tiles(new Vector2(-32, 288), true));
             tiles.Add(new tiles(new Vector2(-64, 288), true));
             tiles.Add(new tiles(new Vector2(-64, 352), true));
             tiles.Add(new tiles(new Vector2(-32, 352), true));
@@ -589,7 +598,7 @@ namespace Pacman
 
             base.Initialize();
             graphics.PreferredBackBufferWidth = 700;
-            graphics.PreferredBackBufferHeight = 670;
+            graphics.PreferredBackBufferHeight = 720;
             graphics.ApplyChanges();
         }
 
@@ -622,7 +631,9 @@ namespace Pacman
             {
                 enemy.LoadContent(Content);
             }
+            spriteBatch = new SpriteBatch(graphics.GraphicsDevice);
 
+            sf = Content.Load<SpriteFont>("sprite");
         }
 
         /// <summary>
@@ -671,27 +682,61 @@ namespace Pacman
                 }
                 bookRem = new List<Books>();
             }
-
-            player.Update(gameTime);
-
-
-            foreach (Enemy enemy in enemyList)
+            if (gameStarted)
             {
-                enemy.Update(gameTime);
-            }
-            foreach (Books consu in books)
-            {
-                consu.Update(gameTime);
-            }
-            foreach (Cards card in cards)
-            {
-                card.Update(gameTime);
-            }
-            foreach (tiles tile in tiles)
-            {
-                tile.Update(gameTime);
-            }
 
+
+                player.Update(gameTime);
+
+
+                foreach (Enemy enemy in enemyList)
+                {
+                    enemy.Update(gameTime);
+                }
+                foreach (Books consu in books)
+                {
+                    consu.Update(gameTime);
+                }
+                foreach (Cards card in cards)
+                {
+                    card.Update(gameTime);
+                }
+                foreach (tiles tile in tiles)
+                {
+                    tile.Update(gameTime);
+                }
+            }
+            else
+            {
+                if (startGameRec.Contains(Mouse.GetState().X, Mouse.GetState().Y) && Mouse.GetState().LeftButton == ButtonState.Pressed)
+                {
+                    gameStarted = true;
+                }
+                else if (howToPlayRec.Contains(Mouse.GetState().X, Mouse.GetState().Y) && Mouse.GetState().LeftButton == ButtonState.Pressed)
+                {
+                    if (howtoplay)
+                    {
+                        howtoplay = false;
+                    }
+                    else
+                    {
+                        howtoplay = true;
+                    }
+                    
+                }
+            }
+            if (gameOver)
+            {
+                gameStarted = false;
+                books = null;
+                cards = null;
+                tiles = null;
+                enemyList = null;
+                player = null;
+                Initialize();
+                LoadContent();
+            }
+            
             base.Update(gameTime);
         }
         /// <summary>
@@ -700,48 +745,147 @@ namespace Pacman
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
+
             GraphicsDevice.Clear(Color.Gray);
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
-
-            this.Window.Title = "You're score is: " + HighScore.ToString();
-
-            //HUD setup
-            #region HUD
-            //SpriteFont spriteFont = Content.Load<SpriteFont>("arial");
-            //Rectangle rectangle = new Rectangle();
-            //rectangle.Width = 700;
-            //rectangle.Height = 50;
-            //rectangle.Y = 670;
-
-            //Texture2D texture = new Texture2D(graphics.GraphicsDevice, 1, 1);
-            //texture.SetData(new Color[] { Color.Gray });
-            //Color color = Color.White;
-
-            //spriteBatch.Draw(texture, rectangle, color);
-            #endregion
-            foreach (Books consu in books)
+            if (gameStarted)
             {
-                consu.Draw(spriteBatch);
-            }
-            foreach (Cards card in cards)
-            {
-                card.Draw(spriteBatch);
-            }
-            foreach (tiles tile in tiles)
-            {
-                tile.Draw(spriteBatch);
-            }
 
-            player.Draw(spriteBatch);
 
-            foreach (Enemy enemy in enemyList)
-            {
-                enemy.Draw(spriteBatch);
+                spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
+
+                this.Window.Title = "You're score is: " + HighScore.ToString();
+
+                //HUD setup
+
+                #region HUD
+
+                Rectangle rectangle = new Rectangle();
+                rectangle.Width = 700;
+                rectangle.Height = 50;
+                rectangle.Y = 670;
+
+                Texture2D texture = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                texture.SetData(new Color[] { Color.Gray });
+                Color color = Color.White;
+
+                spriteBatch.Draw(texture, rectangle, color);
+                spriteBatch.DrawString(sf, "Score: " + HighScore.ToString(), new Vector2(10, 670), Color.White);
+                spriteBatch.DrawString(sf, "liv: " + Player.Lifes, new Vector2(150, 670), Color.White);
+
+                #endregion
+
+                player.Draw(spriteBatch);
+
+
+                foreach (Books consu in books)
+                {
+                    consu.Draw(spriteBatch);
+                }
+                foreach (Cards card in cards)
+                {
+                    card.Draw(spriteBatch);
+                }
+                foreach (tiles tile in tiles)
+                {
+                    tile.Draw(spriteBatch);
+                }
+                foreach (Enemy enemy in enemyList)
+                {
+                    enemy.Draw(spriteBatch);
+                }
+
+
+                //sprite text
+
+                spriteBatch.End();
             }
+            else
+            {
+                spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
+                if (howtoplay == false)
+                {
+                    #region mainMenuBar
+                    mainRec.Width = 150;
+                    mainRec.Height = 300;
+                    mainRec.Y = 200;
+                    mainRec.X = 260;
 
-            spriteBatch.End();
+                    Texture2D mainBarTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                    mainBarTex.SetData(new Color[] { Color.Red });
+                    Color MainColor = Color.White;
+
+                    spriteBatch.Draw(mainBarTex, mainRec, MainColor);
+                    #endregion
+                    #region StartGameButton
+
+                    startGameRec.Width = 130;
+                    startGameRec.Height = 50;
+                    startGameRec.Y = 210;
+                    startGameRec.X = 270;
+
+                    Texture2D startGameTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                    startGameTex.SetData(new Color[] { Color.Blue });
+                    Color startGameCol = Color.White;
+
+                    spriteBatch.Draw(startGameTex, startGameRec, startGameCol);
+
+                    spriteBatch.DrawString(sf, "Start spil", new Vector2(startGameRec.X + 5, startGameRec.Y + 10), Color.White);
+                    #endregion
+                    #region howToPlayButton
+
+                    howToPlayRec.Width = 130;
+                    howToPlayRec.Height = 50;
+                    howToPlayRec.Y = 270;
+                    howToPlayRec.X = 270;
+
+                    Texture2D howToPlayTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                    howToPlayTex.SetData(new Color[] { Color.Blue });
+                    Color howToPlayCol = Color.White;
+
+                    spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);
+
+                    spriteBatch.DrawString(sf, "How to play", new Vector2(howToPlayRec.X + 5, howToPlayRec.Y + 10), Color.White);
+                    #endregion
+                }
+                else
+                {
+                    #region mainMenuBar
+                    mainRec.Width = 300;
+                    mainRec.Height = 300;
+                    mainRec.Y = 200;
+                    mainRec.X = 200;
+
+                    Texture2D mainBarTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                    mainBarTex.SetData(new Color[] { Color.Red });
+                    Color MainColor = Color.White;
+
+                    spriteBatch.Draw(mainBarTex, mainRec, MainColor);
+                    #endregion
+                    #region howToPlayButton
+
+                    howToPlayRec.Width = 130;
+                    howToPlayRec.Height = 50;
+                    howToPlayRec.Y = 430;
+                    howToPlayRec.X = 270;
+
+                    Texture2D howToPlayTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
+                    howToPlayTex.SetData(new Color[] { Color.Blue });
+                    Color howToPlayCol = Color.White;
+
+                    spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);
+
+                    spriteBatch.DrawString(sf, "maaden man spiller paa er", new Vector2(mainRec.X + 5, mainRec.Y + 5), Color.White);
+                    spriteBatch.DrawString(sf, "jada jada jada", new Vector2(mainRec.X + 5, mainRec.Y + 25), Color.White);
+                    spriteBatch.DrawString(sf, "Tilbage", new Vector2(howToPlayRec.X + 5, howToPlayRec.Y + 10), Color.White);
+                    #endregion
+                }
+
+
+                spriteBatch.End();
+
+            }
 
             base.Draw(gameTime);
         }
