@@ -843,7 +843,7 @@ namespace Pacman
                     mainRec.X = 260;
 
                     Texture2D mainBarTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
-                    mainBarTex.SetData(new Color[] { Color.Red });
+                    mainBarTex.SetData(new Color[] { Color.DarkGray });
                     Color MainColor = Color.White;
 
                     spriteBatch.Draw(mainBarTex, mainRec, MainColor);
@@ -856,7 +856,7 @@ namespace Pacman
                     startGameRec.X = 270;
 
                     Texture2D startGameTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
-                    startGameTex.SetData(new Color[] { Color.Blue });
+                    startGameTex.SetData(new Color[] { Color.Gray });
                     Color startGameCol = Color.White;
 
                     spriteBatch.Draw(startGameTex, startGameRec, startGameCol);
@@ -871,7 +871,7 @@ namespace Pacman
                     howToPlayRec.X = 270;
 
                     Texture2D howToPlayTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
-                    howToPlayTex.SetData(new Color[] { Color.Blue });
+                    howToPlayTex.SetData(new Color[] { Color.Gray });
                     Color howToPlayCol = Color.White;
 
                     spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);
@@ -888,7 +888,7 @@ namespace Pacman
                     mainRec.X = 200;
 
                     Texture2D mainBarTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
-                    mainBarTex.SetData(new Color[] { Color.Red });
+                    mainBarTex.SetData(new Color[] { Color.DarkGray });
                     Color MainColor = Color.White;
 
                     spriteBatch.Draw(mainBarTex, mainRec, MainColor);
@@ -901,7 +901,7 @@ namespace Pacman
                     howToPlayRec.X = 270;
 
                     Texture2D howToPlayTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
-                    howToPlayTex.SetData(new Color[] { Color.Blue });
+                    howToPlayTex.SetData(new Color[] { Color.Gray });
                     Color howToPlayCol = Color.White;
 
                     spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);

@@ -54,7 +54,7 @@ namespace Pacman
             CreateAnimation("IdleLeft", 1, 0, 4, 28, 32, Vector2.Zero, 1);
             CreateAnimation("RunLeft", 4, 0, 4, 28, 32, Vector2.Zero, 8);
 
-            speed = 300;
+            
             PlayAnimation("IdleUp");
 
             Position1 = pos;
