@@ -906,8 +906,17 @@ namespace Pacman
 
                     spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);
 
-                    spriteBatch.DrawString(sf, "maaden man spiller paa er", new Vector2(mainRec.X + 5, mainRec.Y + 5), Color.White);
-                    spriteBatch.DrawString(sf, "jada jada jada", new Vector2(mainRec.X + 5, mainRec.Y + 25), Color.White);
+                    spriteBatch.DrawString(sf, "I dette spil er maalet at", new Vector2(mainRec.X + 5, mainRec.Y + 5), Color.White);
+                    spriteBatch.DrawString(sf, "samle alle boegerne", new Vector2(mainRec.X + 5, mainRec.Y + 35), Color.White);
+                    spriteBatch.DrawString(sf, "og laane dem med hjem", new Vector2(mainRec.X + 5, mainRec.Y + 65), Color.White);
+                    spriteBatch.DrawString(sf, "Men da biblioteket er lukket", new Vector2(mainRec.X + 5, mainRec.Y + 95), Color.White);
+                    spriteBatch.DrawString(sf, "vil bibliotekarene proeve at", new Vector2(mainRec.X + 5, mainRec.Y + 125), Color.White);
+                    spriteBatch.DrawString(sf, "fange dig. Du bevaeger dig", new Vector2(mainRec.X + 5, mainRec.Y + 155), Color.White);
+                    spriteBatch.DrawString(sf, "med WAS og D tasterne. ", new Vector2(mainRec.X + 5, mainRec.Y + 185), Color.White);
+                    spriteBatch.DrawString(sf, "Hvis du finder et laaner-. ", new Vector2(mainRec.X + 5, mainRec.Y + 215), Color.White);
+                    spriteBatch.DrawString(sf, "kort vil bibliotekarene", new Vector2(mainRec.X + 5, mainRec.Y + 245), Color.White);
+                    spriteBatch.DrawString(sf, "flygte fra dig i et kort", new Vector2(mainRec.X + 5, mainRec.Y + 275), Color.White);
+                    spriteBatch.DrawString(sf, "stykke tid. Held og lykke!", new Vector2(mainRec.X + 5, mainRec.Y + 305), Color.White);
                     spriteBatch.DrawString(sf, "Tilbage", new Vector2(howToPlayRec.X + 5, howToPlayRec.Y + 10), Color.White);
                     #endregion
                 }

@@ -131,3 +131,4 @@ C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\teleportblok.png
 C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Books.cs
 C:\Users\kristian\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\book.png
+C:\Users\Yolo\Documents\2SemesterPacMan\Pacman\Pacman\bin\Windows\Debug\Content\sprite.xnb
