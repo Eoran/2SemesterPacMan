@@ -837,7 +837,7 @@ namespace Pacman
                         spriteBatch.DrawString(sf, "YOU LOOSE!", new Vector2(270, 100), Color.White);
                     }
                     #region mainMenuBar
-                    mainRec.Width = 150;
+                    mainRec.Width = 170;
                     mainRec.Height = 300;
                     mainRec.Y = 200;
                     mainRec.X = 260;
@@ -850,7 +850,7 @@ namespace Pacman
                     #endregion
                     #region StartGameButton
 
-                    startGameRec.Width = 130;
+                    startGameRec.Width = 150;
                     startGameRec.Height = 50;
                     startGameRec.Y = 210;
                     startGameRec.X = 270;
@@ -865,7 +865,7 @@ namespace Pacman
                     #endregion
                     #region howToPlayButton
 
-                    howToPlayRec.Width = 130;
+                    howToPlayRec.Width = 150;
                     howToPlayRec.Height = 50;
                     howToPlayRec.Y = 270;
                     howToPlayRec.X = 270;
@@ -876,14 +876,14 @@ namespace Pacman
 
                     spriteBatch.Draw(howToPlayTex, howToPlayRec, howToPlayCol);
 
-                    spriteBatch.DrawString(sf, "How to play", new Vector2(howToPlayRec.X + 5, howToPlayRec.Y + 10), Color.White);
+                    spriteBatch.DrawString(sf, "Instruktioner", new Vector2(howToPlayRec.X + 5, howToPlayRec.Y + 10), Color.White);
                     #endregion
                 }
                 else
                 {
                     #region mainMenuBar
                     mainRec.Width = 300;
-                    mainRec.Height = 300;
+                    mainRec.Height = 450;
                     mainRec.Y = 200;
                     mainRec.X = 200;
 
@@ -897,7 +897,7 @@ namespace Pacman
 
                     howToPlayRec.Width = 130;
                     howToPlayRec.Height = 50;
-                    howToPlayRec.Y = 430;
+                    howToPlayRec.Y = 570;
                     howToPlayRec.X = 270;
 
                     Texture2D howToPlayTex = new Texture2D(graphics.GraphicsDevice, 1, 1);
