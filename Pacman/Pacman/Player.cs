@@ -53,8 +53,8 @@ namespace Pacman
             CreateAnimation("RunDown", 4, 0, 0, 28, 32, Vector2.Zero, 50);
             CreateAnimation("IdleLeft", 1, 0, 4, 28, 32, Vector2.Zero, 1);
             CreateAnimation("RunLeft", 4, 0, 4, 28, 32, Vector2.Zero, 8);
-            
 
+            speed = 300;
             PlayAnimation("IdleUp");
 
             Position1 = pos;
@@ -69,6 +69,8 @@ namespace Pacman
         }
         private void HandleInput(KeyboardState keyState)
         {
+            
+
             if (keyState.IsKeyDown(Keys.W) || keyState.IsKeyDown(Keys.Up))
             {
                 direction = (Direction)3;
@@ -117,6 +119,7 @@ namespace Pacman
                 PlayAnimation("IdleDown");
                 velocity += new Vector2(0, 0);
             }
+
             
         }
         public override void Update(GameTime gameTime)

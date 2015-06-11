@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 
+
 namespace Pacman
 {
     /// <summary>
@@ -36,6 +37,8 @@ namespace Pacman
         bool gameStarted = false;
         private bool howtoplay = false;
         public static bool gameOver = false;
+        private bool youwin = false;
+        private bool youLoose = false;
        
         Rectangle mainRec = new Rectangle();
         Rectangle startGameRec = new Rectangle();
@@ -650,12 +653,13 @@ namespace Pacman
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-
+        
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+          
             // TODO: Add your update logic here
 
             if (cardRem.Count > 0)
@@ -735,8 +739,27 @@ namespace Pacman
                 player = null;
                 Initialize();
                 LoadContent();
+                HighScore = 0;
+                Player.PowerCount = 0;
+                gameOver = false;
+                youwin = false;
+                youLoose = true;
             }
-            
+            if(books.Count == 0 && cards.Count == 0)
+            {
+                
+                gameStarted = false;
+                books = null;
+                cards = null;
+                tiles = null;
+                enemyList = null;
+                player = null;
+                Initialize();
+                LoadContent();
+                HighScore = 0;
+                Player.PowerCount = 0;
+                youwin = true;
+            }
             base.Update(gameTime);
         }
         /// <summary>
@@ -755,7 +778,6 @@ namespace Pacman
 
                 spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
 
-                this.Window.Title = "You're score is: " + HighScore.ToString();
 
                 //HUD setup
 
@@ -771,8 +793,8 @@ namespace Pacman
                 Color color = Color.White;
 
                 spriteBatch.Draw(texture, rectangle, color);
-                spriteBatch.DrawString(sf, "Score: " + HighScore.ToString(), new Vector2(10, 670), Color.White);
-                spriteBatch.DrawString(sf, "liv: " + Player.Lifes, new Vector2(150, 670), Color.White);
+                spriteBatch.DrawString(sf, "Score: " + HighScore.ToString(), new Vector2(10, 680), Color.White);
+                spriteBatch.DrawString(sf, "liv: " + Player.Lifes, new Vector2(200, 680), Color.White);
 
                 #endregion
 
@@ -806,6 +828,14 @@ namespace Pacman
                 spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
                 if (howtoplay == false)
                 {
+                    if (youwin)
+                    {
+                        spriteBatch.DrawString(sf, "YOU WIN!", new Vector2(270, 100), Color.White);
+                    }
+                    else if(youLoose)
+                    {
+                        spriteBatch.DrawString(sf, "YOU LOOSE!", new Vector2(270, 100), Color.White);
+                    }
                     #region mainMenuBar
                     mainRec.Width = 150;
                     mainRec.Height = 300;
