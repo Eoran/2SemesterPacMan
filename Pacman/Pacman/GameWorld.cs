@@ -39,6 +39,7 @@ namespace Pacman
         public static bool gameOver = false;
         private bool youwin = false;
         private bool youLoose = false;
+        private int score;
        
         Rectangle mainRec = new Rectangle();
         Rectangle startGameRec = new Rectangle();
@@ -739,6 +740,7 @@ namespace Pacman
                 player = null;
                 Initialize();
                 LoadContent();
+                score = HighScore;
                 HighScore = 0;
                 Player.PowerCount = 0;
                 gameOver = false;
@@ -756,6 +758,7 @@ namespace Pacman
                 player = null;
                 Initialize();
                 LoadContent();
+                score = HighScore;
                 HighScore = 0;
                 Player.PowerCount = 0;
                 youwin = true;
@@ -831,10 +834,12 @@ namespace Pacman
                     if (youwin)
                     {
                         spriteBatch.DrawString(sf, "YOU WIN!", new Vector2(270, 100), Color.White);
+                        spriteBatch.DrawString(sf, "Din score var " + score, new Vector2(270, 120), Color.White);
                     }
                     else if(youLoose)
                     {
                         spriteBatch.DrawString(sf, "YOU LOOSE!", new Vector2(270, 100), Color.White);
+                        spriteBatch.DrawString(sf, "Din score var " + score, new Vector2(270, 120), Color.White);
                     }
                     #region mainMenuBar
                     mainRec.Width = 170;
